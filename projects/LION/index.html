@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="LION: Linear Group RNN for 3D Object Detection in Point Clouds">
+  <meta name="keywords" content="Linear RNN, 3D Object Detection">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LION: Linear Group RNN for 3D Object Detection in Point Clouds</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <!-- <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"> -->
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/lion.jpg">
+  <!-- <link rel="stylesheet" href="./static/css/float.css"> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Highlight Text Example</title>
+  <style>
+  .highlight {
+    color:  #d35400
+  }
+  </style>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Image Height with Equal Heights</title>
+  <style>
+    .image-container {
+      display: flex;  
+      flex-wrap: wrap;  
+      align-items: stretch;  
+    }
+
+    .image-box {
+      flex: 1; 
+      margin: 5px;  
+      display: flex;  
+      flex-direction: column; 
+    }
+
+    .image-box img {
+      width: 100%;  
+      height: auto;  
+      display: block; 
+    }
+
+    .image-box figcaption {
+      text-align: center;  
+      margin-top: auto;  
+    }
+  </style>
+
+
+  <title>Centered YouTube Video</title>
+  <style>
+      .video-container {
+          text-align: center;  
+      }
+      .video-iframe {
+          margin: auto;  
+          display: block; 
+      }
+  </style>
+
+
+</head>
+<body>
+  
+  
+
+ 
+ 
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://hypernerf.github.io">
+            HyperNeRF
+          </a>
+          <a class="navbar-item" href="https://nerfies.github.io">
+            Nerfies
+          </a>
+          <a class="navbar-item" href="https://latentfusion.github.io">
+            LatentFusion
+          </a>
+          <a class="navbar-item" href="https://photoshape.github.io">
+            PhotoShape
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav> -->
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">
+            <img src="./static/images/lion.jpg" alt="" style="width: 80px; height: 80px; vertical-align: middle; margin-right: 0px; position: relative; top: -8px;">
+            LION: Linear Group RNN for 3D Object Detection in Point Clouds
+          </h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://happinesslz.github.io">Zhe Liu</a><sup>1*</sup>,</span>
+            <span class="author-block">
+              <a href="https://github.com/AlmoonYsl">Jinghua Hou</a><sup>1*</sup>,</span>
+            <span class="author-block">
+              <a href="https://github.com/deepinact">Xinyu Wang</a><sup>1*</sup>,</span>
+            <span class="author-block">
+              <a href="https://shuluoshu.github.io">Xiaoqing Ye</a><sup>3</sup>,</span>
+            <span class="author-block">
+              <a href="https://jingdongwang2017.github.io">Jingdong Wang</a><sup>3</sup>,</span>
+			      <span class="author-block">
+              <a href="https://hszhao.github.io">Hengshuang Zhao</a><sup>2</sup>,</span> 			  
+            <span class="author-block">
+              <a href="https://xbai.vlrlab.net">Xiang Bai</a><sup>1<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>†</mo></math></sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <!-- <span class="author-block"><sup>1</sup>Huazhong University of Science and Technology,</span> -->
+
+            <div style="width:100%;display:flex;justify-content:center;">
+              <div style="display:flex;justify-content:center;margin-right:20px; height:48px">
+                    <img src="./static/images/hust.png" width="60" alt="" style="object-fit:contain">
+                    <sup style="padding-top:3px">1</sup><div style="align-self:center; padding-left:5px">Huazhong University of Science and Technology,</div>
+              </div>
+              <div style="display:flex;justify-content:center;margin-right:20px; height:48px">
+                    <img src="./static/images/hku.svg" width="40" alt="" style="object-fit:contain">
+                    <sup style="padding-top:3px">2</sup><div style="align-self:center; padding-left:5px">The University of Hong Kong,</div>
+                </div>
+            </div>
+
+
+            <div style="display:flex;justify-content:center;margin-right:20px; height:48px">
+                  <img src="./static/images/baidu.png" alt="" style="object-fit:contain" width="100">
+                  <sup style="padding-top:10px">3</sup><div style="align-self:center; padding-left:5px; padding-top:10px">Baidu Inc.</div>
+            </div>
+
+              <!-- <span class="author-block"><sup>2</sup>The University of Hong Kong,</span> -->
+              <!-- <span class="author-block"><sup>3</sup>Baidu Inc.</span> -->
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <strong>arXiv 2024</strong>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">(<sup>*</sup>Equal Contribution,<sup><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>†</mo></math></sup>Corresponding Author)<sup></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- demo Link. -->
+              <!--span class="link-block">
+                <a href="https://huggingface.co/spaces/Junfeng5/GLEE_demo" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="far fa-images"></i>
+                  </span>
+                  <span>Demo</span>
+                </a>
+              </span-->
+              <!-- Demo Link(Faster). -->
+              <!--span class="link-block">
+                <a href="http://46fa6a7346679f7635.glee-vision.tech" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="far fa-images"></i>
+                  </span>
+                  <span>Demo(Faster)</span>
+                </a>
+              </span-->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/happinesslz/LION"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div style="text-align: center;">
+  <img src="./static/images/all.jpg" alt="Image 2" width="30%" style="margin: 0 auto;" >
+</div>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-five-fifths">
+        <h2 class="title is-3">🔥 Highlights</h2>
+        <div class="content has-text-justified">
+
+          <br>
+          <p style="font-size: 20px;">
+            1. <span class="highlight">Strong performance</span>. LION achieves state-of-the-art performance on Waymo, nuScenes, Argoverse V2, and ONCE datasets. &#128170;
+          </p>
+          <br>
+          <p style="font-size: 20px;">
+            2. <span class="highlight">Strong generalization</span>. LION can support almost all linear RNN operators including Mamba, RWKV, RetNet, and TTT. Anyone is welcome to verify more linear RNN operators &#128512;.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-five-fifths">
+        <h2 class="title is-3">  Abstract</h2>
+        <div class="content has-text-justified">
+
+          <p style="font-size: 20px;">
+            The benefit of transformers in large-scale 3D point cloud perception tasks, such as 3D object detection, is limited by their quadratic computation cost when modeling long-range relationships. In contrast, linear RNNs have low computational complexity and are suitable for long-range modeling. 
+            Toward this goal, we propose a simple and effective window-based framework built on LInear group RNN (i.e., perform linear RNN for grouped features) for accurate 3D object detection, called LION. 
+            The key property is to allow sufficient feature interaction in a much larger group than transformer-based methods. However, effectively applying linear group RNN to 3D object detection in highly sparse point clouds is not trivial due to its limitation in handling spatial modeling. 
+            To tackle this problem, we simply introduce a 3D spatial feature descriptor and integrate it into the linear group RNN operators to enhance their spatial features rather than blindly increasing the number of scanning orders for voxel features. 
+            To further address the challenge in highly sparse point clouds, we propose a 3D voxel generation strategy to densify foreground features thanks to linear group RNN as a natural property of auto-regressive models. 
+            Extensive experiments verify the effectiveness of the proposed components and the generalization of our LION on different linear group RNN operators including Mamba, RWKV, and RetNet. Finally, it is worth mentioning that our LION-Mamba achieves state-of-the-art on Waymo, nuScenes, Argoverse V2, and ONCE datasets. </p>
+        </div>
+
+        <div class="column is-centered has-text-centered">
+          <img src="./static/images/framework.png"
+                class="interpolation-image"
+                alt="Interpolate start reference image."/>
+                <figcaption style="font-size: 14px;text-align: left;">The illustration of LION, which mainly consists of several LION blocks, each paired with a voxel generation for feature enhancement and a voxel merging for down-sampling features along the height dimension. </figcaption>
+        </div>
+
+        <div class="column is-centered has-text-centered">
+          <img src="./static/images/block.jpg"
+                class="interpolation-image"
+                alt="Interpolate start reference image."/>
+                <figcaption style="font-size: 14px;text-align: left;">The LION block is the core component of our approach, which involves LION layer for long-range feature interaction, 3D spatial feature descriptor for capturing local 3D spatial information, voxel merging for
+                  feature down-sampling and voxel expanding for feature up-sampling </figcaption>
+        </div>
+
+      </div>
+    </div>
+</section>
+ 
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-five-fifths">
+        <h2 class="title is-3">Evaluation</h2>
+        <div class="content has-text-justified">
+
+          <p style="font-size: 20px;">
+          LION achieves <b>SOTA</b> 3D object detection performance on <b>4</b> most popular large-scale datasets with <b>different</b> linear RNN operators. &#9889;
+          </p>
+
+        <h3 class="title is-3"> Waymo</h3>
+
+        <div class="image-container">
+          <div class="image-box">
+            <img src="./static/images/waymo.jpg" alt="Image 2">
+            <figcaption>Performances on the Waymo Open Dataset validation set (train with 100% training data).</figcaption>
+          </div>
+        </div>
+
+        <h3 class="title is-3"> nuScenes</h3>
+
+        <div class="image-container">
+          <div class="image-box">
+            <img src="./static/images/nuscenes.png" alt="Image 2">
+            <figcaption>Performances on the nuScenes validation and test set.</figcaption>
+          </div>
+        </div>
+
+        <h3 class="title is-3"> Argoverse V2</h3>
+
+        <div class="image-container">
+          <div class="image-box">
+            <img src="./static/images/argo.png" alt="Image 2">
+            <figcaption>Performances on the Argoverse V2 validation set.</figcaption>
+          </div>
+        </div>
+
+        <h3 class="title is-3"> ONCE</h3>
+
+        <div class="image-container">
+          <div class="image-box">
+            <img src="./static/images/once.png" alt="Image 2">
+            <figcaption>Performances on the ONCE validation set.</figcaption>
+          </div>
+        </div>
+
+        <h3 class="title is-3"> KITTI</h3>
+
+        <div class="image-container">
+          <div class="image-box">
+            <img src="./static/images/kitti.jpg" alt="Image 2">
+            <figcaption>Performances on the KITTI validation set.</figcaption>
+          </div>
+        </div>
+
+        <h3 class="title is-3"> Visualization</h3>
+
+        <!-- <div style="display:flex;justify-content:center;width:100%">
+          <div style="align-self:center;">
+            <div class="image-container">
+              <div class="image-box">
+                <img src="./static/images/output_video_waymo.gif" alt="" style="object-fit:contain" width="100%">
+                <figcaption>Waymo</figcaption>
+              </div>
+            </div>
+          </div>
+          <div style="align-self:center;padding-left:5px">
+            <div class="image-container">
+              <div class="image-box">
+                <img src="./static/images/output_video_nusc.gif" alt="" style="object-fit:contain" width="100%">
+                <figcaption>nuScenes</figcaption>
+              </div>
+            </div>
+          </div>
+          <div style="align-self:center;padding-left:5px">
+            <div class="image-container">
+              <div class="image-box">
+                <img src="./static/images/output_video_argo.gif" alt="" style="object-fit:contain" width="100%">
+                <figcaption>Argoverse V2</figcaption>
+              </div>
+            </div>
+          </div>
+          <div style="align-self:center;padding-left:5px">
+            <div class="image-container">
+              <div class="image-box">
+                <img src="./static/images/output_video_once.gif" alt="" style="object-fit:contain" width="100%">
+                <figcaption>ONCE</figcaption>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <div style="display:flex;justify-content:center;width:100%">
+          <div style="align-self:center;">
+              <video muted autoplay controls loop>
+                <source src="./static/images/waymo.mp4" type="video/mp4">
+              </video>
+          </div>
+          <div style="align-self:center;padding-left:10px;">
+            <video muted autoplay controls loop>
+              <source src="./static/images/nuscenes.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <div style="display:flex;justify-content:center;width:100%">
+          <div style="align-self:center;">
+            <video muted autoplay controls loop>
+              <source src="./static/images/argoverse.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div style="align-self:center;padding-left: 10px;">
+            <video muted autoplay controls loop>
+              <source src="./static/images/once.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+      <br>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{liu2024lion,
+  author= {Zhe Liu, Jinghua Hou, Xingyu Wang, Xiaoqing Ye, Jingdong Wang, Hengshuang Zhao, Xiang Bai},
+  title = {LION: Linear Group RNN for 3D Object Detection in Point Clouds},
+  year={2024},
+  eprint={2312.09158},
+  archivePrefix={arXiv}
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+
+     <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This website is adapted from <a
+            href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>, licensed under a <a rel="license"
+            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-ShareAlike 4.0 International License</a>. 
+          </p>
+        </div>
+      </div>
+  </div>
+</footer>
+
+</body>
+</html>
