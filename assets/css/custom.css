@@ -1,0 +1,106 @@
+/* Custom styles for Zhe Liu's homepage */
+
+/* Profile styles */
+.chinese-name {
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+/* Publication styles */
+.paper-box {
+  display: flex;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.paper-box-image {
+  flex: 0 0 200px;
+  margin-right: 1.5rem;
+}
+
+.paper-box-image img {
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.paper-box-image img:hover {
+  transform: scale(1.02);
+}
+
+.paper-box-text {
+  flex: 1;
+}
+
+/* Badge for conference/journal */
+.badge {
+  display: inline-block;
+  background-color: #4b6cb7;
+  color: white;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* News section */
+#news .news-item {
+  display: flex;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px dashed #eaeaea;
+}
+
+#news .news-date {
+  flex: 0 0 100px;
+  font-weight: 600;
+  color: #3498db;
+}
+
+#news .news-content {
+  flex: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .paper-box {
+    flex-direction: column;
+  }
+  
+  .paper-box-image {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  #news .news-item {
+    flex-direction: column;
+  }
+  
+  #news .news-date {
+    margin-bottom: 0.3rem;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .badge {
+    background-color: #61dafb;
+    color: #1a1a1a;
+  }
+  
+  #news .news-date {
+    color: #61dafb;
+  }
+  
+  .paper-box {
+    border-bottom: 1px solid #34495e;
+  }
+  
+  #news .news-item {
+    border-bottom: 1px dashed #34495e;
+  }
+}
