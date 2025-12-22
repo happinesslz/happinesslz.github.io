@@ -15,17 +15,60 @@ I am currently a postdoctoral researcher at the Department of Computer Science o
 My research focuses on 3D Perception in Autonomous Driving, including 3D Object Detection, 3D Multi-object Tracking, Multi-modal Representation Learning, and 3D Point Cloud Analysis. Looking forward, my research interests will center on 3D Perception, Embodied AI, 4D Multimodal Large Language Models (4D MLLM), and 4D World Models.
 
 # 🔥 News
-- *Sep 2024*: LION is accepted as NeurIPS 2024!
-- *Jul 2024*: We release LION, a new Linear RNN-based framework for 3D object detection in Point Clouds.
-- *Jul 2024*: Two papers (SEED, OPEN) are accepted by ECCV 2024!
-- *Sep 2023*: QTNet is accepted by NeurIPS 2023!
-- *Nov 2022*: StereoDistill is accepted by AAAI 2023!
-- *Dec 2022*: EPNet++ is accepted by T-PAMI 2022!
-- *Jul 2020*: EPNet is accepted by ECCV 2020!
-- *Nov 2019*: TANet is accepted by AAAI 2020 as an **Oral** presentation!
+- *Dec 2025*: 🚀 We release GenieDrive, a Physics-Aware Driving World Model with 4D Occupancy Guided Video Generation.
+- *Dec 2025*: 🚀 We release DrivePI, a Spatial-aware 4D MLLM for Unified Autonomous Driving Understanding, Perception, Prediction and Planning.
+- *Nov 2025*: 🚀 We release UniLION, a Unified Autonomous Driving Model with Linear Group RNNs.
+- *Nov 2025*: 🎤 Invited to give a talk at Huawei Yinwang Intelligent Technology (formerly Huawei Car BU), with over 100 researchers attending.
+- *Sep 2024*: 🎉 LION is accepted by NeurIPS 2024!
+- *Jul 2024*: 🚀 We release LION, a new Linear RNN-based framework for 3D object detection in Point Clouds.
+- *Jul 2024*: 🎉 Two papers (SEED, OPEN) are accepted by ECCV 2024!
+- *Sep 2023*: 🎉 QTNet is accepted by NeurIPS 2023!
+- *Nov 2022*: 🎉 StereoDistill is accepted by AAAI 2023!
+- *Dec 2022*: 🎉 EPNet++ is accepted by T-PAMI 2022!
+- *Jul 2020*: 🎉 EPNet is accepted by ECCV 2020!
+- *Nov 2019*: 🏆 TANet is accepted by AAAI 2020 as an **Oral** presentation!
 
 # 📝 Publications 
-*: Co-author, +: Corresponding Author
+*: Co-first author, †: Corresponding Author, ‡: Project Leader
+
+
+## GenieDrive: Towards Physics-Aware Driving World Model with 4D Occupancy Guided Video Generation
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/geniedrive.png' alt="GenieDrive" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[GenieDrive: Towards Physics-Aware Driving World Model with 4D Occupancy Guided Video Generation](https://arxiv.org/abs/2512.12751)
+
+Zhenya Yang, **Zhe Liu‡**, Yuxiang Lu, Liping Hou, Chenxuan Miao, Siyi Peng, Bailan Feng, Xiang Bai, Hengshuang Zhao†
+
+[**Paper**](https://arxiv.org/abs/2512.12751) | [**Code**](https://github.com/Huster-YZY/GenieDrive)
+</div>
+</div>
+
+
+## DrivePI: Spatial-aware 4D MLLM for Unified Autonomous Driving Understanding, Perception, Prediction and Planning
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/drivepi.png' alt="DrivePI" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DrivePI: Spatial-aware 4D MLLM for Unified Autonomous Driving Understanding, Perception, Prediction and Planning](https://github.com/happinesslz/DrivePI)
+
+**Zhe Liu**, Runhui Huang, Rui Yang, Siming Yan, Zining Wang, Lu Hou, Di Lin, Xiang Bai, Hengshuang Zhao†
+
+[**Paper**](https://github.com/happinesslz/DrivePI) | [**Code**](https://github.com/happinesslz/DrivePI)
+</div>
+</div>
+
+
+## UniLION: Towards Unified Autonomous Driving Model with Linear Group RNNs
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/UniLION.png' alt="UniLION" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[UniLION: Towards Unified Autonomous Driving Model with Linear Group RNNs](https://github.com/happinesslz/UniLION)
+
+**Zhe Liu**, Jinghua Hou, Xiaoqing Ye, Jingdong Wang, Hengshuang Zhao†, Xiang Bai†
+
+[**Paper**](https://github.com/happinesslz/UniLION) | [**Code**](https://github.com/happinesslz/UniLION)
+</div>
+</div>
 
 ## LION: Linear Group RNN for 3D Object Detection in Point Clouds
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/lion.png' alt="LION" width="100%"></div></div>
