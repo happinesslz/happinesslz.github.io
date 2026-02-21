@@ -15,6 +15,7 @@ I am currently a postdoctoral researcher at the Department of Computer Science o
 My research focuses on 3D Perception in Autonomous Driving, including 3D Object Detection, 3D Multi-object Tracking, Multi-modal Representation Learning, and 3D Point Cloud Analysis. Looking forward, my research interests will center on 3D Perception, Embodied AI, 4D Multimodal Large Language Models (4D MLLM), and 4D World Models.
 
 # 🔥 News
+- *Feb 2026*: 🎉🎉🎉 DrivePI and GenieDrive have been accepted by CVPR 2026!
 - *Dec 2025*: 🚀 We release GenieDrive, a Physics-Aware Driving World Model with 4D Occupancy Guided Video Generation.
 - *Dec 2025*: 🚀 We release DrivePI, a Spatial-aware 4D MLLM for Unified Autonomous Driving Understanding, Perception, Prediction and Planning.
 - *Nov 2025*: 🚀 We release UniLION, a Unified Autonomous Driving Model with Linear Group RNNs.
@@ -33,7 +34,7 @@ My research focuses on 3D Perception in Autonomous Driving, including 3D Object 
 
 
 ## GenieDrive: Towards Physics-Aware Driving World Model with 4D Occupancy Guided Video Generation
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/geniedrive.png' alt="GenieDrive" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/geniedrive.png' alt="GenieDrive" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [GenieDrive: Towards Physics-Aware Driving World Model with 4D Occupancy Guided Video Generation](https://arxiv.org/abs/2512.12751)
@@ -46,7 +47,7 @@ Zhenya Yang, **Zhe Liu‡**, Yuxiang Lu, Liping Hou, Chenxuan Miao, Siyi Peng, B
 
 
 ## DrivePI: Spatial-aware 4D MLLM for Unified Autonomous Driving Understanding, Perception, Prediction and Planning
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/drivepi.png' alt="DrivePI" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/drivepi.png' alt="DrivePI" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DrivePI: Spatial-aware 4D MLLM for Unified Autonomous Driving Understanding, Perception, Prediction and Planning](https://github.com/happinesslz/DrivePI)
