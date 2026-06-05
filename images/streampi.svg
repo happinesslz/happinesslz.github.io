@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="title desc">
+  <title id="title">StreamPI thumbnail</title>
+  <desc id="desc">A schematic thumbnail for streaming multimodal temporal modeling.</desc>
+  <rect width="600" height="360" fill="#fff"/>
+  <rect x="34" y="34" width="532" height="292" fill="#f9fafb" stroke="#d6dde8" stroke-width="2"/>
+  <g fill="none" stroke-linecap="round" stroke-width="10">
+    <path d="M90 120 C150 72 210 170 270 120 S390 72 450 120 S520 170 540 126" stroke="#003b91"/>
+    <path d="M90 180 C150 132 210 230 270 180 S390 132 450 180 S520 230 540 186" stroke="#1f7a8c"/>
+    <path d="M90 240 C150 192 210 290 270 240 S390 192 450 240 S520 290 540 246" stroke="#e0a458"/>
+  </g>
+  <circle cx="90" cy="120" r="12" fill="#003b91"/>
+  <circle cx="270" cy="180" r="12" fill="#1f7a8c"/>
+  <circle cx="450" cy="240" r="12" fill="#e0a458"/>
+  <text x="84" y="292" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#111">StreamPI</text>
+  <text x="86" y="317" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#4b5563">streaming temporal VLA modeling</text>
+</svg>

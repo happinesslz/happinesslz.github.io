@@ -7,8 +7,8 @@
 
 # Site Settings
 title                    : "Zhe Liu | 刘哲"
-description              : "Postdoctoral Researcher at The University of Hong Kong"
-repository               : "RayeRen/acad-homepage.github.io"
+description              : "Postdoctoral Researcher in Embodied AI and 3D Perception at The University of Hong Kong"
+repository               : "happinesslz/happinesslz.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhe Liu | 刘哲"
   avatar           : "images/zheliu.jpg"
-  bio              : "Postdoctoral Researcher"
+  bio              : "Postdoctoral Researcher in Embodied AI and 3D Perception"
   location         : "The University of Hong Kong"
   employer         :
   pubmed           : 

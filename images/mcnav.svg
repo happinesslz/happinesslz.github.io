@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="title desc">
+  <title id="title">MCNav thumbnail</title>
+  <desc id="desc">A schematic thumbnail for a memory-aware cognitive map.</desc>
+  <rect width="600" height="360" fill="#fff"/>
+  <rect x="34" y="34" width="532" height="292" fill="#f8faf7" stroke="#d8ded3" stroke-width="2"/>
+  <path d="M112 246 L112 104 L228 104 L228 170 L338 170 L338 104 L488 104 L488 246 Z" fill="none" stroke="#003b91" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M138 226 C186 188 242 228 290 188 S394 126 462 146" fill="none" stroke="#e0a458" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="138" cy="226" r="18" fill="#1f7a8c"/>
+  <circle cx="462" cy="146" r="18" fill="#b56576"/>
+  <g fill="#dbe7ee">
+    <rect x="146" y="126" width="44" height="26" rx="3"/>
+    <rect x="370" y="190" width="54" height="26" rx="3"/>
+    <rect x="252" y="206" width="44" height="26" rx="3"/>
+  </g>
+  <text x="84" y="292" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#111">MCNav</text>
+  <text x="86" y="317" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#4b5563">dynamic cognitive map</text>
+</svg>

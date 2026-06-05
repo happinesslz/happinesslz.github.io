@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="title desc">
+  <title id="title">GeoTeacher thumbnail</title>
+  <desc id="desc">A schematic thumbnail for geometry-guided semi-supervised 3D detection.</desc>
+  <rect width="600" height="360" fill="#fff"/>
+  <rect x="34" y="34" width="532" height="292" fill="#fbfaf7" stroke="#ded9d0" stroke-width="2"/>
+  <path d="M92 238 H508" stroke="#d4d4d4" stroke-width="6"/>
+  <g fill="none" stroke-linejoin="round" stroke-width="7">
+    <path d="M150 174 L226 138 L304 174 L226 214 Z" stroke="#003b91"/>
+    <path d="M304 174 L386 132 L462 174 L386 218 Z" stroke="#1f7a8c"/>
+    <path d="M226 138 V214" stroke="#e0a458"/>
+    <path d="M386 132 V218" stroke="#e0a458"/>
+  </g>
+  <g fill="#b56576">
+    <circle cx="150" cy="174" r="10"/>
+    <circle cx="226" cy="138" r="10"/>
+    <circle cx="304" cy="174" r="10"/>
+    <circle cx="386" cy="132" r="10"/>
+    <circle cx="462" cy="174" r="10"/>
+  </g>
+  <text x="84" y="292" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#111">GeoTeacher</text>
+  <text x="86" y="317" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#4b5563">geometry-guided 3D learning</text>
+</svg>

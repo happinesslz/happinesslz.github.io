@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="title desc">
+  <title id="title">ACE-Brain-0 thumbnail</title>
+  <desc id="desc">A schematic thumbnail for universal embodied spatial intelligence.</desc>
+  <rect width="600" height="360" fill="#fff"/>
+  <rect x="34" y="34" width="532" height="292" fill="#f8fafc" stroke="#d6dde8" stroke-width="2"/>
+  <circle cx="300" cy="166" r="74" fill="none" stroke="#003b91" stroke-width="8"/>
+  <circle cx="300" cy="166" r="28" fill="#003b91"/>
+  <g stroke="#1f7a8c" stroke-width="7" stroke-linecap="round">
+    <path d="M300 92 V58"/>
+    <path d="M300 240 V274"/>
+    <path d="M226 166 H170"/>
+    <path d="M374 166 H430"/>
+    <path d="M247 113 L204 70"/>
+    <path d="M353 113 L396 70"/>
+    <path d="M247 219 L204 262"/>
+    <path d="M353 219 L396 262"/>
+  </g>
+  <g fill="#e0a458">
+    <circle cx="170" cy="166" r="18"/>
+    <circle cx="430" cy="166" r="18"/>
+    <circle cx="204" cy="70" r="18"/>
+    <circle cx="396" cy="70" r="18"/>
+    <circle cx="204" cy="262" r="18"/>
+    <circle cx="396" cy="262" r="18"/>
+  </g>
+  <text x="84" y="292" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#111">ACE-Brain-0</text>
+  <text x="86" y="317" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#4b5563">shared spatial scaffold</text>
+</svg>

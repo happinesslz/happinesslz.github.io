@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="title desc">
+  <title id="title">Describe Adapt Combine thumbnail</title>
+  <desc id="desc">A schematic thumbnail for open-set 3D object retrieval.</desc>
+  <rect width="600" height="360" fill="#fff"/>
+  <rect x="34" y="34" width="532" height="292" fill="#f9fafb" stroke="#d6dde8" stroke-width="2"/>
+  <g fill="none" stroke-width="7" stroke-linejoin="round">
+    <path d="M132 202 L132 130 L194 94 L256 130 V202 L194 238 Z" stroke="#003b91"/>
+    <path d="M344 202 L344 130 L406 94 L468 130 V202 L406 238 Z" stroke="#1f7a8c"/>
+  </g>
+  <path d="M256 166 H344" stroke="#e0a458" stroke-width="10" stroke-linecap="round"/>
+  <path d="M320 138 L348 166 L320 194" fill="none" stroke="#e0a458" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="122" y="70" width="146" height="34" rx="4" fill="#e9eef5"/>
+  <rect x="334" y="70" width="146" height="34" rx="4" fill="#e9eef5"/>
+  <text x="84" y="292" font-family="Arial, Helvetica, sans-serif" font-size="45" font-weight="700" fill="#111">DAC</text>
+  <text x="86" y="317" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#4b5563">open-set 3D object retrieval</text>
+</svg>

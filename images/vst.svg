@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-labelledby="title desc">
+  <title id="title">Visual Spatial Tuning thumbnail</title>
+  <desc id="desc">A schematic thumbnail for visual spatial tuning.</desc>
+  <rect width="600" height="360" fill="#fff"/>
+  <rect x="34" y="34" width="532" height="292" fill="#f8fafc" stroke="#d6dde8" stroke-width="2"/>
+  <g fill="none" stroke="#d4dbe5" stroke-width="3">
+    <path d="M104 224 L284 124 L496 224"/>
+    <path d="M104 184 L284 84 L496 184"/>
+    <path d="M104 144 L284 44 L496 144"/>
+    <path d="M104 224 L104 144"/>
+    <path d="M284 124 L284 44"/>
+    <path d="M496 224 L496 144"/>
+  </g>
+  <circle cx="284" cy="124" r="34" fill="#003b91"/>
+  <circle cx="172" cy="186" r="24" fill="#1f7a8c"/>
+  <circle cx="420" cy="185" r="24" fill="#e0a458"/>
+  <path d="M172 186 L284 124 L420 185" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+  <text x="84" y="292" font-family="Arial, Helvetica, sans-serif" font-size="39" font-weight="700" fill="#111">Visual Spatial Tuning</text>
+  <text x="86" y="317" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#4b5563">from spatial perception to reasoning</text>
+</svg>
