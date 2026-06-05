@@ -49,7 +49,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class="paper-image-frame"><div class="badge">arXiv 2026</div><img src='images/mcnav.svg' alt="MCNav" loading="lazy"></div>
+    <div class="paper-image-frame"><div class="badge">arXiv 2026</div><img src='images/mcnav.png' alt="MCNav" loading="lazy"></div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2605.19594">MCNav: Memory-Aware Dynamic Cognitive Map for Zero-shot Goal-oriented Navigation</a></div>
@@ -61,7 +61,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class="paper-image-frame"><div class="badge">ICML 2026</div><img src='images/alphagrpo.svg' alt="AlphaGRPO" loading="lazy"></div>
+    <div class="paper-image-frame"><div class="badge">ICML 2026</div><img src='images/alphagrpo.png' alt="AlphaGRPO" loading="lazy"></div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2605.12495">AlphaGRPO: Unlocking Self-Reflective Multimodal Generation in UMMs via Decompositional Verifiable Reward</a></div>
@@ -73,7 +73,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class="paper-image-frame"><div class="badge">arXiv 2026</div><img src='images/faster.svg' alt="FASTER" loading="lazy"></div>
+    <div class="paper-image-frame"><div class="badge">arXiv 2026</div><img src='images/faster.png' alt="FASTER" loading="lazy"></div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2603.19199">FASTER: Rethinking Real-Time Flow VLAs</a></div>
@@ -85,18 +85,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class="paper-image-frame"><div class="badge">Manuscript 2026</div><img src='images/streampi.svg' alt="StreamPI" loading="lazy"></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'>StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models</div>
-    <div class='paper-authors'><strong>Zhe Liu</strong>, Jinghua Hou, et al.</div>
-    <div class='paper-venue'>In submission, 2026.</div>
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class="paper-image-frame"><div class="badge">arXiv 2026</div><img src='images/acebrain.svg' alt="ACE-Brain-0" loading="lazy"></div>
+    <div class="paper-image-frame"><div class="badge">arXiv 2026</div><img src='images/acebrain.png' alt="ACE-Brain-0" loading="lazy"></div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2603.03198">ACE-Brain-0: Spatial Intelligence as a Shared Scaffold for Universal Embodiments</a></div>
@@ -132,7 +121,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class="paper-image-frame"><div class="badge">ICRA 2026</div><img src='images/geoteacher.svg' alt="GeoTeacher" loading="lazy"></div>
+    <div class="paper-image-frame"><div class="badge">ICRA 2026</div><img src='images/geoteacher.png' alt="GeoTeacher" loading="lazy"></div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2512.23147">GeoTeacher: Geometry-Guided Semi-Supervised 3D Object Detection</a></div>
@@ -144,7 +133,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class="paper-image-frame"><div class="badge">arXiv 2025</div><img src='images/vst.svg' alt="Visual Spatial Tuning" loading="lazy"></div>
+    <div class="paper-image-frame"><div class="badge">arXiv 2025</div><img src='images/vst.png' alt="Visual Spatial Tuning" loading="lazy"></div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2511.05491">Visual Spatial Tuning</a></div>
@@ -168,7 +157,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class="paper-image-frame"><div class="badge">ICCV 2025</div><img src='images/dac.svg' alt="DAC" loading="lazy"></div>
+    <div class="paper-image-frame"><div class="badge">ICCV 2025</div><img src='images/dac.png' alt="DAC" loading="lazy"></div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Wang_Describe_Adapt_and_Combine_Empowering_CLIP_Encoders_for_Open-set_3D_ICCV_2025_paper.html">Describe, Adapt and Combine: Empowering CLIP Encoders for Open-set 3D Object Retrieval</a></div>
@@ -180,7 +169,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class="paper-image-frame"><div class="badge">IROS 2025</div><img src='images/hybridtm.svg' alt="HybridTM" loading="lazy"></div>
+    <div class="paper-image-frame"><div class="badge">IROS 2025</div><img src='images/hybridtm.png' alt="HybridTM" loading="lazy"></div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2507.18575">HybridTM: Combining Transformer and Mamba for 3D Semantic Segmentation</a></div>
