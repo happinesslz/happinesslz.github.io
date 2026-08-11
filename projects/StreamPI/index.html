@@ -67,15 +67,10 @@
     .task-bar-pair { display: flex; justify-content: center; align-items: flex-end; gap: 0.3rem; width: 100%; height: 100%; }
     .task-bar-group .task-bar-wrap { flex: 0 0 auto; width: min(100%, 52px); }
     .task-bar-label { font-family: 'Google Sans', 'Noto Sans', sans-serif; font-size: 0.8rem; color: #374151; margin-top: 0.5rem; text-align: center; white-space: nowrap; }
-    .key-stat-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.8rem; margin: 1.25rem 0 0.25rem; }
-    .key-stat { border: 1px solid #e2e7ef; border-radius: 16px; padding: 1rem 0.75rem; text-align: center; background: linear-gradient(180deg, #fff 0%, #f8fafc 100%); box-shadow: 0 8px 22px rgba(15, 23, 42, 0.04); }
-    .key-stat-value { display: block; font-family: 'Google Sans', 'Noto Sans', sans-serif; font-size: 1.65rem; font-weight: 700; line-height: 1.15; color: #1f2937; }
-    .key-stat-label { display: block; margin-top: 0.3rem; font-size: 0.82rem; line-height: 1.35; color: #64748b; }
     .coming-soon { cursor: default; }
     .math-inline, .math-display { font-family: Cambria, 'Times New Roman', serif; }
     .math-inline { white-space: nowrap; }
     .math-display { display: block; text-align: center; font-size: 1.1rem; margin: 0.35rem 0; }
-    @media screen and (max-width: 768px) { .key-stat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
   </style>
 </head>
 
@@ -95,8 +90,8 @@
               <span class="author-block"><a href="https://www.linkedin.com/in/xianzhefan" target="_blank" rel="noopener noreferrer">Xianzhe Fan</a><sup>1</sup>,</span>
               <span class="author-block">Junwei Luo<sup>1</sup>,</span>
               <span class="author-block"><a href="https://provencestar.github.io/" target="_blank" rel="noopener noreferrer">Junyi Li</a><sup>1</sup>,</span>
-              <span class="author-block">Ruihua Han<sup>1</sup>,</span>
-              <span class="author-block">Zhi Hou<sup>2</sup>,</span>
+              <span class="author-block"><a href="https://scholar.google.com/citations?hl=en&amp;user=6XibZaYAAAAJ" target="_blank" rel="noopener noreferrer">Ruihua Han</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://scholar.google.com/citations?user=vpjnH7AAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Zhi Hou</a><sup>2</sup>,</span>
               <span class="author-block"><a href="https://i.cs.hku.hk/~hszhao/" target="_blank" rel="noopener noreferrer">Hengshuang Zhao</a><sup>1†</sup></span>
             </div>
             <div class="is-size-5 publication-authors publication-affiliations">
@@ -107,10 +102,10 @@
             <div class="has-text-centered">
               <div class="publication-links">
                 <span class="link-block">
-                  <a href="./StreamPI_paper.pdf" target="_blank" rel="noopener noreferrer" class="external-link button is-normal is-rounded is-dark">
+                  <span class="external-link button is-normal is-rounded is-dark is-static-link coming-soon" aria-disabled="true" title="Paper release coming soon">
                     <span class="icon"><img src="./StreamPI_files/arxiv-icon.svg" alt="" style="height:1em; width:auto; display:block;"></span>
                     <span>Paper</span>
-                  </a>
+                  </span>
                 </span>
                 <span class="link-block">
                   <span class="external-link button is-normal is-rounded is-dark is-static-link coming-soon" aria-disabled="true" title="arXiv link coming soon">
@@ -173,7 +168,7 @@
           <img src="./StreamPI_files/streampi_intro.png" alt="Comparison of single-frame, window-based, and StreamPI streaming VLA paradigms" decoding="async" style="width: 100%; height: auto; object-fit: contain;">
         </div>
         <h3 class="subtitle teaser-summary has-text-justified">
-          Single-frame VLAs act without temporal memory, while window-based models repeatedly process an expanding history. <b>StreamPI</b> instead streams instruction-anchored observation units through a lightweight KV cache. With bidirectional image-text fusion inside each unit and causal attention across time, it adds temporal reasoning to <span class="math-inline">π<sub>0.5</sub></span> with <b>zero additional parameters</b> and only <b>9.2 ms</b> extra latency at five streaming frames on an RTX 4090.
+          State-of-the-art Vision-Language-Action models such as <span class="math-inline">π<sub>0.5</sub></span> process each observation independently, lacking historical context and precise spatial perception. <b>StreamPI</b> introduces streaming multimodal temporal modeling that treats every (visual observation, language instruction) pair as an atomic temporal unit. With intra-pair bidirectional attention and inter-pair causal attention, StreamPI adds temporal reasoning to single-frame VLAs <b>without introducing additional parameters</b> and supports flexible, asynchronous real-robot deployment.
         </h3>
       </div>
     </div>
@@ -246,12 +241,6 @@
           At the initial timestamp, the model encodes the current unit and stores its fused representation in a KV cache. At each subsequent step, only the newly arriving frame is encoded; its representation attends to cached historical representations via cross-attention, eliminating redundant recomputation of past frames.
           This keeps inference cost constant with respect to temporal horizon and makes StreamPI well-suited for long-horizon manipulation.
         </p>
-      </div>
-      <div class="key-stat-grid" aria-label="StreamPI highlights">
-        <div class="key-stat"><span class="key-stat-value">0</span><span class="key-stat-label">additional parameters</span></div>
-        <div class="key-stat"><span class="key-stat-value">+9.2 ms</span><span class="key-stat-label">5-frame latency overhead</span></div>
-        <div class="key-stat"><span class="key-stat-value">97.8%</span><span class="key-stat-label">average LIBERO success</span></div>
-        <div class="key-stat"><span class="key-stat-value">+36.6</span><span class="key-stat-label">points on rolling-object grasping</span></div>
       </div>
     </div>
   </section>
@@ -393,7 +382,7 @@
       <h3 class="subtitle is-4 section-subtitle-spaced">LIBERO Simulation Benchmark</h3>
       <div class="content has-text-justified">
         <p>
-          Beyond real robots, we validate StreamPI on LIBERO, which comprises four suites of increasing complexity: LIBERO-Spatial, LIBERO-Object, LIBERO-Goal, and LIBERO-Long. Although the benchmark is largely saturated, StreamPI (<span class="math-inline"><i>T</i> = 5</span>) improves the average success rate from <b>96.9%</b> to <b>97.8%</b> over the single-frame <span class="math-inline">π<sub>0.5</sub></span> baseline. The largest gain is on LIBERO-Long (<b>+2.4 points</b>), where temporal memory is most critical.
+          Beyond real robots, we validate StreamPI on LIBERO, which comprises four suites of increasing complexity: LIBERO-Spatial, LIBERO-Object, LIBERO-Goal, and LIBERO-Long. StreamPI (<span class="math-inline"><i>T</i> = 5</span>) improves the average success rate from <b>96.9%</b> to <b>98.3%</b> over the single-frame <span class="math-inline">π<sub>0.5</sub></span> baseline, a gain of <b>1.4 points</b>. The largest gain is on LIBERO-Long (<b>+3.0 points</b>), where temporal memory is most critical.
         </p>
       </div>
       <div class="table-scroll" style="margin-top: 1rem;">
@@ -429,7 +418,7 @@
             <tr><td><span class="cell-center">π<sub>0</sub></span></td><td><span class="cell-center">96.8</span></td><td><span class="cell-center">98.8</span></td><td><span class="cell-center">95.8</span></td><td><span class="cell-center">85.2</span></td><td><span class="cell-center">94.2</span></td></tr>
             <tr><td><span class="cell-center">π<sub>0.5</sub></span></td><td><span class="cell-center">98.8</span></td><td><span class="cell-center">98.2</span></td><td><span class="cell-center">96.8</span></td><td><span class="cell-center">92.4</span></td><td><span class="cell-center">96.9</span></td></tr>
             <tr class="metrics-group-start"><td><span class="cell-center"><b>StreamPI (T=3)</b></span></td><td><span class="cell-center">98.6</span></td><td><span class="cell-center">98.8</span></td><td><span class="cell-center">97.8</span></td><td><span class="cell-center">93.8</span></td><td><span class="cell-center">97.3</span></td></tr>
-            <tr class="metrics-highlight-row"><td><span class="cell-center"><b>StreamPI (T=5)</b></span></td><td><span class="cell-center">98.4</span></td><td><span class="cell-center"><b>99.2</b></span></td><td><span class="cell-center"><b>98.8</b></span></td><td><span class="cell-center"><b>94.8</b></span></td><td><span class="cell-center"><b>97.8</b></span></td></tr>
+            <tr class="metrics-highlight-row"><td><span class="cell-center"><b>StreamPI (T=5)</b></span></td><td><span class="cell-center">98.4</span></td><td><span class="cell-center"><b>99.4</b></span></td><td><span class="cell-center"><b>99.2</b></span></td><td><span class="cell-center"><b>95.4</b></span></td><td><span class="cell-center"><b>98.3</b></span></td></tr>
           </tbody>
         </table>
       </div>
@@ -439,13 +428,45 @@
         </p>
       </div>
 
+      <h3 class="subtitle is-4 section-subtitle-spaced">CALVIN Simulation Benchmark</h3>
+      <div class="content has-text-justified">
+        <p>
+          We further evaluate StreamPI on CALVIN (ABC&rarr;D), which measures long-horizon instruction following over chains of five consecutive tasks. StreamPI achieves an average chain length of <b>4.547</b>, outperforming both the single-frame <span class="math-inline">π<sub>0.5</sub></span> baseline (4.313) and MemoryVLA (4.090), with the advantage growing as the chain progresses.
+        </p>
+      </div>
+      <div class="table-scroll" style="margin-top: 1rem;">
+        <table class="metrics-table metrics-table-tab2">
+          <thead>
+            <tr>
+              <th><span class="cell-center">Method</span></th>
+              <th><span class="cell-center">1</span></th>
+              <th><span class="cell-center">2</span></th>
+              <th><span class="cell-center">3</span></th>
+              <th><span class="cell-center">4</span></th>
+              <th><span class="cell-center">5</span></th>
+              <th><span class="cell-center">Avg.</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><span class="cell-center">MemoryVLA</span></td><td><span class="cell-center">94.8</span></td><td><span class="cell-center">87.4</span></td><td><span class="cell-center">81.4</span></td><td><span class="cell-center">75.9</span></td><td><span class="cell-center">69.4</span></td><td><span class="cell-center">4.090</span></td></tr>
+            <tr><td><span class="cell-center">π<sub>0.5</sub></span></td><td><span class="cell-center">94.2</span></td><td><span class="cell-center">88.7</span></td><td><span class="cell-center">85.7</span></td><td><span class="cell-center">83.2</span></td><td><span class="cell-center">79.5</span></td><td><span class="cell-center">4.313</span></td></tr>
+            <tr class="metrics-highlight-row"><td><span class="cell-center"><b>StreamPI (T=5)</b></span></td><td><span class="cell-center"><b>96.9</b></span></td><td><span class="cell-center"><b>93.6</b></span></td><td><span class="cell-center"><b>90.7</b></span></td><td><span class="cell-center"><b>88.5</b></span></td><td><span class="cell-center"><b>85.0</b></span></td><td><span class="cell-center"><b>4.547</b></span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="content has-text-justified section-copy">
+        <p>
+          <b>Table notes.</b> Success rates (%) for completing the first through fifth task in a chained sequence on CALVIN, and the average number of consecutive tasks completed (Avg., out of 5). Bold denotes the best result per column.
+        </p>
+      </div>
+
       <h3 class="subtitle is-4 section-subtitle-spaced">Ablation Studies</h3>
       <div class="content has-text-justified">
         <p>
           <b>Attention design.</b> Replacing intra-pair bidirectional attention with causal attention consistently hurts performance, with the gap widening to <b>−4.2%</b> on LIBERO-Long at <span class="math-inline"><i>T</i> = 5</span>, confirming that strong vision-language fusion inside each temporal unit is essential.
         </p>
         <p>
-          <b>Random-interval training.</b> Compared with a fixed interval <span class="math-inline">δ = 1</span>, random-interval training improves the average success rate from 96.4 to 97.3 (<span class="math-inline"><i>T</i> = 3</span>) and from 97.0 to 97.8 (<span class="math-inline"><i>T</i> = 5</span>), especially benefiting long-horizon tasks.
+          <b>Random-interval training.</b> Compared with a fixed interval <span class="math-inline">δ = 1</span>, random-interval training improves the average success rate from 96.4 to 97.3 (<span class="math-inline"><i>T</i> = 3</span>) and from 97.0 to 98.3 (<span class="math-inline"><i>T</i> = 5</span>), especially benefiting long-horizon tasks.
         </p>
         <p>
           <b>Cross-stream generalization.</b> A model trained with <span class="math-inline"><i>T</i> = 5</span> retains strong performance at <span class="math-inline"><i>T</i> = 3</span> and still outperforms the single-frame baseline at <span class="math-inline"><i>T</i> = 1</span>, indicating that the learned temporal structure provides a residual benefit even with reduced context.
@@ -461,7 +482,7 @@
           <h2 class="title is-3">Conclusion</h2>
           <div class="content has-text-justified">
             <p>
-              We present <b>StreamPI</b>, a streaming multimodal temporal modeling framework that equips VLA models with robust temporal awareness for robot manipulation. By treating (image, text) pairs as atomic temporal units and combining intra-pair bidirectional attention with inter-pair causal attention, StreamPI captures cross-frame geometric context and maintains persistent instruction grounding over long horizons without introducing additional parameters. Random-interval streaming training bridges the gap between fixed-interval training and asynchronous deployment. Experiments on real-robot tasks and the LIBERO benchmark show that StreamPI consistently outperforms the single-frame baseline, with notable gains on perception-sensitive and memory-dependent tasks.
+              We present <b>StreamPI</b>, a streaming multimodal temporal modeling framework that equips VLA models with robust temporal awareness for robot manipulation. By treating (image, text) pairs as atomic temporal units and combining intra-pair bidirectional attention with inter-pair causal attention, StreamPI captures cross-frame geometric context and maintains persistent instruction grounding over long horizons without introducing additional parameters. Random-interval streaming training bridges the gap between fixed-interval training and asynchronous deployment. Experiments on real-robot tasks, LIBERO, and CALVIN show that StreamPI consistently outperforms the single-frame baseline, with notable gains on perception-sensitive, memory-dependent, and long-horizon tasks.
             </p>
           </div>
         </div>
