@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="description" content="StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models">
+  <meta name="description" content="StreamPI adds parameter-free streaming temporal reasoning to Vision-Language-Action models through instruction-anchored modeling and efficient KV-cache inference.">
   <meta property="og:title" content="StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models">
   <meta property="og:description" content="StreamPI equips single-frame VLAs with zero-parameter streaming temporal reasoning for robot manipulation.">
   <meta property="og:url" content="https://happinesslz.github.io/projects/StreamPI/">
@@ -15,6 +15,20 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="keywords" content="StreamPI, VLA, Vision-Language-Action, Temporal Modeling, Robotics, Streaming Inference">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="citation_title" content="StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models">
+  <meta name="citation_author" content="Zhe Liu">
+  <meta name="citation_author" content="Jinghua Hou">
+  <meta name="citation_author" content="Yuxiang Lu">
+  <meta name="citation_author" content="Zhenya Yang">
+  <meta name="citation_author" content="Xianzhe Fan">
+  <meta name="citation_author" content="Junwei Luo">
+  <meta name="citation_author" content="Junyi Li">
+  <meta name="citation_author" content="Ruihua Han">
+  <meta name="citation_author" content="Zhi Hou">
+  <meta name="citation_author" content="Hengshuang Zhao">
+  <meta name="citation_publication_date" content="2026/08/26">
+  <meta name="citation_arxiv_id" content="2608.26067">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2608.26067">
 
   <link rel="canonical" href="https://happinesslz.github.io/projects/StreamPI/">
   <title>StreamPI | Streaming Multimodal Temporal Modeling for VLAs</title>
@@ -71,6 +85,16 @@
     .math-inline, .math-display { font-family: Cambria, 'Times New Roman', serif; }
     .math-inline { white-space: nowrap; }
     .math-display { display: block; text-align: center; font-size: 1.1rem; margin: 0.35rem 0; }
+    .news-section { padding-top: 0.75rem; padding-bottom: 1rem; }
+    .news-list { margin: 0; padding: 1rem 1.2rem; list-style: none; border: 1px solid #e5e7eb; border-radius: 14px; background: #f8fafc; }
+    .news-list li { display: flex; gap: 0.8rem; align-items: baseline; padding: 0.35rem 0; }
+    .news-date { flex: 0 0 7.5rem; font-weight: 700; color: #334155; }
+    .implementation-note { border-left: 4px solid #74c476; background: #f3faf5; border-radius: 0 12px 12px 0; padding: 1rem 1.15rem; margin-top: 1rem; }
+    .paper-glyph { font-size: 1.05em; line-height: 1; filter: grayscale(1) brightness(3); }
+    @media screen and (max-width: 600px) {
+      .news-list li { display: block; }
+      .news-date { display: block; margin-bottom: 0.1rem; }
+    }
   </style>
 </head>
 
@@ -88,9 +112,9 @@
               <span class="author-block"><a href="https://innovator-zero.github.io/" target="_blank" rel="noopener noreferrer">Yuxiang Lu</a><sup>1</sup>,</span>
               <span class="author-block"><a href="https://huster-yzy.github.io/" target="_blank" rel="noopener noreferrer">Zhenya Yang</a><sup>1</sup>,</span>
               <span class="author-block"><a href="https://www.linkedin.com/in/xianzhefan" target="_blank" rel="noopener noreferrer">Xianzhe Fan</a><sup>1</sup>,</span>
-              <span class="author-block">Junwei Luo<sup>1</sup>,</span>
+              <span class="author-block"><a href="https://scholar.google.com/citations?user=6XibZaYAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">Junwei Luo</a><sup>1</sup>,</span>
               <span class="author-block"><a href="https://provencestar.github.io/" target="_blank" rel="noopener noreferrer">Junyi Li</a><sup>1</sup>,</span>
-              <span class="author-block"><a href="https://scholar.google.com/citations?hl=en&amp;user=6XibZaYAAAAJ" target="_blank" rel="noopener noreferrer">Ruihua Han</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://scholar.google.com/citations?user=BMuEK90AAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">Ruihua Han</a><sup>1</sup>,</span>
               <span class="author-block"><a href="https://scholar.google.com/citations?user=vpjnH7AAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Zhi Hou</a><sup>2</sup>,</span>
               <span class="author-block"><a href="https://i.cs.hku.hk/~hszhao/" target="_blank" rel="noopener noreferrer">Hengshuang Zhao</a><sup>1†</sup></span>
             </div>
@@ -102,26 +126,20 @@
             <div class="has-text-centered">
               <div class="publication-links">
                 <span class="link-block">
-                  <span class="external-link button is-normal is-rounded is-dark is-static-link coming-soon" aria-disabled="true" title="Paper release coming soon">
-                    <span class="icon"><img src="./StreamPI_files/arxiv-icon.svg" alt="" style="height:1em; width:auto; display:block;"></span>
+                  <a href="https://arxiv.org/abs/2608.26067" target="_blank" rel="noopener noreferrer" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><span class="paper-glyph" aria-hidden="true">📄</span></span>
                     <span>Paper</span>
-                  </span>
+                  </a>
                 </span>
                 <span class="link-block">
-                  <span class="external-link button is-normal is-rounded is-dark is-static-link coming-soon" aria-disabled="true" title="arXiv link coming soon">
-                    <span class="icon"><img src="./StreamPI_files/arxiv-icon.svg" alt="" style="height:1em; width:auto; display:block;"></span>
-                    <span>arXiv</span>
-                  </span>
-                </span>
-                <span class="link-block">
-                  <span class="external-link button is-normal is-rounded is-dark is-static-link coming-soon" aria-disabled="true" title="Code release coming soon">
+                  <a href="https://github.com/hku-sail/StreamPI" target="_blank" rel="noopener noreferrer" class="external-link button is-normal is-rounded is-dark" title="Official repository; public release scheduled for August 30, 2026">
                     <span class="icon github-icon" aria-hidden="true">
                       <svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor">
                         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"></path>
                       </svg>
                     </span>
                     <span>Code</span>
-                  </span>
+                  </a>
                 </span>
               </div>
             </div>
@@ -158,6 +176,16 @@
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="section news-section" aria-labelledby="news-heading">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3" id="news-heading">News</h2>
+      <ul class="news-list">
+        <li><span class="news-date">Aug 30, 2026</span><span>Code and model weights are scheduled for public release in the <a href="https://github.com/hku-sail/StreamPI" target="_blank" rel="noopener noreferrer">official repository</a>.</span></li>
+        <li><span class="news-date">Aug 26, 2026</span><span>StreamPI is released on <a href="https://arxiv.org/abs/2608.26067" target="_blank" rel="noopener noreferrer">arXiv</a>.</span></li>
+      </ul>
     </div>
   </section>
 
@@ -229,7 +257,7 @@
       <h3 class="subtitle is-4 section-subtitle-spaced">Random-Interval Streaming Training</h3>
       <div class="content has-text-justified section-copy">
         <p>
-          Real robots produce asynchronous observation streams with variable time gaps. During training, StreamPI perturbs the base inter-frame interval <span class="math-inline">δ̄</span> with a uniform random offset <span class="math-inline">ε ∼ U(−Δ, +Δ)</span>, yielding <span class="math-inline">δ = δ̄ + ε</span> clipped to <span class="math-inline">[δ<sub>min</sub>, δ<sub>max</sub>]</span>.
+          Real robots produce asynchronous observation streams with variable time gaps. During training, StreamPI independently samples the interval between adjacent historical observations from <span class="math-inline">δ<sub>i</sub> ∼ U[3, 7]</span> and selects older observations using cumulative temporal offsets.
           A complementary temporal masking strategy randomly hides the earliest <span class="math-inline"><i>k</i></span> frames, simulating the incremental observation pattern of streaming inference.
           Together, these mechanisms bridge the gap between synchronous training and asynchronous deployment.
         </p>
@@ -238,9 +266,12 @@
       <h3 class="subtitle is-4 section-subtitle-spaced">Streaming Inference</h3>
       <div class="content has-text-justified section-copy">
         <p>
-          At the initial timestamp, the model encodes the current unit and stores its fused representation in a KV cache. At each subsequent step, only the newly arriving frame is encoded; its representation attends to cached historical representations via cross-attention, eliminating redundant recomputation of past frames.
-          This keeps inference cost constant with respect to temporal horizon and makes StreamPI well-suited for long-horizon manipulation.
+          At the initial timestamp, StreamPI encodes the current temporal unit, predicts an action chunk, and stores the resulting Key and Value representations. Each subsequent call encodes only the newly arrived unit, which attends to the cached history. The cache is bounded by the configured context length <span class="math-inline"><i>T</i></span> and is flushed before the next unit would exceed that limit.
+          This avoids repeatedly encoding past observations and keeps the additional streaming overhead modest as context grows.
         </p>
+      </div>
+      <div class="implementation-note content has-text-justified">
+        <b>Official implementation.</b> StreamPI is built on <a href="https://github.com/Physical-Intelligence/openpi" target="_blank" rel="noopener noreferrer">openpi</a> and includes LIBERO, CALVIN, and ALOHA-style real-robot workflows, together with validated JAX multi-node distributed training. See the <a href="https://github.com/hku-sail/StreamPI" target="_blank" rel="noopener noreferrer">official repository</a>; its public release is scheduled for August 30, 2026.
       </div>
     </div>
   </section>
@@ -251,7 +282,7 @@
       <h3 class="subtitle is-4 section-subtitle-spaced">Real-Robot Manipulation</h3>
       <div class="content has-text-justified section-copy">
         <p>
-          We evaluate StreamPI on two complementary real-robot task categories.
+          We evaluate StreamPI on AgileX PiperX 6-DoF arms in an ALOHA-style leader-follower setup with one front-view Intel RealSense D455 and two wrist-mounted D435 cameras. Each task uses 100 teleoperated demonstrations collected at 30 FPS. Evaluation covers two complementary task categories.
           <b>Precise perception-dependent tasks</b> demand fine-grained geometric understanding, including <i>Cup Insertion into Cup Sleeve</i> and <i>Pen Insertion into Narrow Bottle</i>.
           <b>Memory-dependent tasks</b> require recalling information from earlier observations, including <i>Rolling Object Grasping</i> and <i>Shell Game</i>.
           As shown below, StreamPI substantially improves success rates over the single-frame <span class="math-inline">π<sub>0.5</sub></span> baseline across all four tasks.
@@ -382,7 +413,7 @@
       <h3 class="subtitle is-4 section-subtitle-spaced">LIBERO Simulation Benchmark</h3>
       <div class="content has-text-justified">
         <p>
-          Beyond real robots, we validate StreamPI on LIBERO, which comprises four suites of increasing complexity: LIBERO-Spatial, LIBERO-Object, LIBERO-Goal, and LIBERO-Long. StreamPI (<span class="math-inline"><i>T</i> = 5</span>) improves the average success rate from <b>96.9%</b> to <b>98.3%</b> over the single-frame <span class="math-inline">π<sub>0.5</sub></span> baseline, a gain of <b>1.4 points</b>. The largest gain is on LIBERO-Long (<b>+3.0 points</b>), where temporal memory is most critical.
+          Beyond real robots, we validate StreamPI on LIBERO, which comprises four suites of increasing complexity: LIBERO-Spatial, LIBERO-Object, LIBERO-Goal, and LIBERO-Long. StreamPI (<span class="math-inline"><i>T</i> = 5</span>) improves the average success rate from <b>96.9%</b> to <b>98.3%</b> over the single-frame <span class="math-inline">π<sub>0.5</sub></span> baseline, a gain of <b>1.4 points</b>. The largest gains are on LIBERO-Goal (<b>+2.8 points</b>) and LIBERO-Long (<b>+2.6 points</b>), while LIBERO-Spatial remains tied at 98.8%.
         </p>
       </div>
       <div class="table-scroll" style="margin-top: 1rem;">
@@ -417,8 +448,8 @@
             <tr><td><span class="cell-center">MemoryVLA</span></td><td><span class="cell-center">98.4</span></td><td><span class="cell-center">98.4</span></td><td><span class="cell-center">96.4</span></td><td><span class="cell-center">93.4</span></td><td><span class="cell-center">96.5</span></td></tr>
             <tr><td><span class="cell-center">π<sub>0</sub></span></td><td><span class="cell-center">96.8</span></td><td><span class="cell-center">98.8</span></td><td><span class="cell-center">95.8</span></td><td><span class="cell-center">85.2</span></td><td><span class="cell-center">94.2</span></td></tr>
             <tr><td><span class="cell-center">π<sub>0.5</sub></span></td><td><span class="cell-center">98.8</span></td><td><span class="cell-center">98.2</span></td><td><span class="cell-center">96.8</span></td><td><span class="cell-center">92.4</span></td><td><span class="cell-center">96.9</span></td></tr>
-            <tr class="metrics-group-start"><td><span class="cell-center"><b>StreamPI (T=3)</b></span></td><td><span class="cell-center">98.6</span></td><td><span class="cell-center">98.8</span></td><td><span class="cell-center">97.8</span></td><td><span class="cell-center">93.8</span></td><td><span class="cell-center">97.3</span></td></tr>
-            <tr class="metrics-highlight-row"><td><span class="cell-center"><b>StreamPI (T=5)</b></span></td><td><span class="cell-center">98.4</span></td><td><span class="cell-center"><b>99.4</b></span></td><td><span class="cell-center"><b>99.2</b></span></td><td><span class="cell-center"><b>95.4</b></span></td><td><span class="cell-center"><b>98.3</b></span></td></tr>
+            <tr class="metrics-group-start"><td><span class="cell-center"><b>StreamPI (T=3)</b></span></td><td><span class="cell-center">98.6</span></td><td><span class="cell-center">98.6</span></td><td><span class="cell-center">98.6</span></td><td><span class="cell-center">93.8</span></td><td><span class="cell-center">97.5</span></td></tr>
+            <tr class="metrics-highlight-row"><td><span class="cell-center"><b>StreamPI (T=5)</b></span></td><td><span class="cell-center"><b>98.8</b></span></td><td><span class="cell-center"><b>99.8</b></span></td><td><span class="cell-center"><b>99.6</b></span></td><td><span class="cell-center"><b>95.0</b></span></td><td><span class="cell-center"><b>98.3</b></span></td></tr>
           </tbody>
         </table>
       </div>
@@ -463,14 +494,33 @@
       <h3 class="subtitle is-4 section-subtitle-spaced">Ablation Studies</h3>
       <div class="content has-text-justified">
         <p>
-          <b>Attention design.</b> Replacing intra-pair bidirectional attention with causal attention consistently hurts performance, with the gap widening to <b>−4.2%</b> on LIBERO-Long at <span class="math-inline"><i>T</i> = 5</span>, confirming that strong vision-language fusion inside each temporal unit is essential.
+          <b>Attention design.</b> At <span class="math-inline"><i>T</i> = 5</span>, bidirectional intra-pair attention improves average success by <b>2.8 points</b> and LIBERO-Long by <b>4.4 points</b> over causal intra-pair attention, confirming that strong vision-language fusion inside each temporal unit is essential. Comparing bidirectional <span class="math-inline"><i>T</i> = 5</span> against the single-frame ablation adds <b>1.8 points</b> on average and <b>3.0 points</b> on LIBERO-Long.
         </p>
         <p>
-          <b>Random-interval training.</b> Compared with a fixed interval <span class="math-inline">δ = 1</span>, random-interval training improves the average success rate from 96.4 to 97.3 (<span class="math-inline"><i>T</i> = 3</span>) and from 97.0 to 98.3 (<span class="math-inline"><i>T</i> = 5</span>), especially benefiting long-horizon tasks.
+          <b>Random-interval training.</b> Compared with a fixed interval <span class="math-inline">δ = 1</span>, random-interval training improves the average success rate from 96.4 to 97.5 (<span class="math-inline"><i>T</i> = 3</span>) and from 97.0 to 98.3 (<span class="math-inline"><i>T</i> = 5</span>), especially benefiting long-horizon tasks.
         </p>
         <p>
-          <b>Cross-stream generalization.</b> A model trained with <span class="math-inline"><i>T</i> = 5</span> retains strong performance at <span class="math-inline"><i>T</i> = 3</span> and still outperforms the single-frame baseline at <span class="math-inline"><i>T</i> = 1</span>, indicating that the learned temporal structure provides a residual benefit even with reduced context.
+          <b>Cross-stream generalization.</b> A model trained with <span class="math-inline"><i>T</i> = 5</span> reaches 97.4% average success at test-time <span class="math-inline"><i>T</i> = 3</span> and 97.1% at <span class="math-inline"><i>T</i> = 1</span>, both above the 96.5% single-frame ablation baseline.
         </p>
+      </div>
+
+      <h3 class="subtitle is-4 section-subtitle-spaced">Streaming Inference Efficiency</h3>
+      <div class="content has-text-justified">
+        <p>
+          Mean latency over 20 real-robot trials on a single NVIDIA GeForce RTX 4090. Extending the context from one to five frames adds only <b>9.2 ms</b>.
+        </p>
+      </div>
+      <div class="table-scroll" style="margin-top: 1rem;">
+        <table class="metrics-table metrics-table-tab2">
+          <thead><tr><th><span class="cell-center">Streaming frames</span></th><th><span class="cell-center">Inference time (ms)</span></th><th><span class="cell-center">Overhead vs. T=1</span></th></tr></thead>
+          <tbody>
+            <tr><td><span class="cell-center">1</span></td><td><span class="cell-center">94.4 ± 3.4</span></td><td><span class="cell-center">—</span></td></tr>
+            <tr><td><span class="cell-center">3</span></td><td><span class="cell-center">97.9 ± 5.1</span></td><td><span class="cell-center">3.5 ms</span></td></tr>
+            <tr class="metrics-highlight-row"><td><span class="cell-center"><b>5</b></span></td><td><span class="cell-center"><b>103.6 ± 6.3</b></span></td><td><span class="cell-center"><b>9.2 ms</b></span></td></tr>
+            <tr><td><span class="cell-center">8</span></td><td><span class="cell-center">110.9 ± 10.2</span></td><td><span class="cell-center">16.5 ms</span></td></tr>
+            <tr><td><span class="cell-center">10</span></td><td><span class="cell-center">117.9 ± 16.5</span></td><td><span class="cell-center">23.5 ms</span></td></tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </section>
@@ -483,6 +533,9 @@
           <div class="content has-text-justified">
             <p>
               We present <b>StreamPI</b>, a streaming multimodal temporal modeling framework that equips VLA models with robust temporal awareness for robot manipulation. By treating (image, text) pairs as atomic temporal units and combining intra-pair bidirectional attention with inter-pair causal attention, StreamPI captures cross-frame geometric context and maintains persistent instruction grounding over long horizons without introducing additional parameters. Random-interval streaming training bridges the gap between fixed-interval training and asynchronous deployment. Experiments on real-robot tasks, LIBERO, and CALVIN show that StreamPI consistently outperforms the single-frame baseline, with notable gains on perception-sensitive, memory-dependent, and long-horizon tasks.
+            </p>
+            <p>
+              <b>Limitations and outlook.</b> Training still loads all temporal frames jointly, making extremely long contexts expensive, and random-interval training does not fully resolve extreme deployment asynchrony. Promising directions include training beyond 100 frames and adaptive KV-cache pruning.
             </p>
           </div>
         </div>
@@ -500,7 +553,11 @@
 @article{liu2026streampi,
   title={StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models},
   author={Liu, Zhe and Hou, Jinghua and Lu, Yuxiang and Yang, Zhenya and Fan, Xianzhe and Luo, Junwei and Li, Junyi and Han, Ruihua and Hou, Zhi and Zhao, Hengshuang},
-  journal={Preprint},
+  journal={arXiv preprint arXiv:2608.26067},
+  eprint={2608.26067},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2608.26067},
   year={2026}
 }
       </code></pre>
