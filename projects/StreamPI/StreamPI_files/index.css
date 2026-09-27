@@ -39,6 +39,14 @@ body {
   color: #4b5563;
 }
 
+.publication-venue {
+  margin-top: 0.9rem;
+  font-family: 'Google Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #b31b1b;
+}
+
 
 .footer .icon-link {
     font-size: 25px;
