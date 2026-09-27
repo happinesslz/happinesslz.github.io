@@ -31,23 +31,23 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 # News
 
-- **Sep 2026:** Six papers are accepted by **NeurIPS 2026**: [StreamPI](#streampi), [Read It Back / SpectraReward](#spectrareward) (**Spotlight**), [EO-WM](#eowm), [FlowR2A](#flowr2a), [FASTER](#faster), and [SRL-MPC](#srlmpc).
-- **Aug 2026:** [StreamPI](https://happinesslz.github.io/projects/StreamPI/) and [SRL-MPC](https://hanruihua.github.io/srl_mpc_project/) are released.
-- **Jul 2026:** [Read It Back / SpectraReward](https://huangrh99.github.io/projects/SpectraReward/) is released.
-- **Jul 2026:** ACE-Brain-0.5 is released.
-- **Jun 2026:** Visual Spatial Tuning is accepted by ECCV 2026.
+- **Sep 2026:** 🎉 Six papers are accepted by **NeurIPS 2026**: [StreamPI](#streampi), [Read It Back / SpectraReward](#spectrareward) (**Spotlight ✨**), [EO-WM](#eowm), [FlowR2A](#flowr2a), [FASTER](#faster), and [SRL-MPC](#srlmpc).
+- **Aug 2026:** 🚀 [StreamPI](https://happinesslz.github.io/projects/StreamPI/) and [SRL-MPC](https://hanruihua.github.io/srl_mpc_project/) are released.
+- **Jul 2026:** 🚀 [Read It Back / SpectraReward](https://huangrh99.github.io/projects/SpectraReward/) is released.
+- **Jul 2026:** 🚀 ACE-Brain-0.5 is released.
+- **Jun 2026:** 🎉 Visual Spatial Tuning is accepted by ECCV 2026.
 - **Jun 2026:** EO-WM, FlowR2A, Metis, and IR-SIM are released.
 - **May 2026:** MCNav and AlphaGRPO are released.
 - **Mar 2026:** FASTER and ACE-Brain-0 are released.
-- **Feb 2026:** DrivePI and GenieDrive are accepted by CVPR 2026.
+- **Feb 2026:** 🎉 DrivePI and GenieDrive are accepted by CVPR 2026.
 - **Dec 2025:** DrivePI and GenieDrive are released.
 - **Nov 2025:** UniLION and Visual Spatial Tuning are released.
 - **Nov 2025:** Invited to give a talk at Huawei Yinwang Intelligent Technology, with over 100 researchers attending.
-- **Sep 2024:** LION is accepted by NeurIPS 2024.
-- **Jul 2024:** SEED and OPEN are accepted by ECCV 2024.
-- **Sep 2023:** QTNet is accepted by NeurIPS 2023.
-- **Nov 2022:** StereoDistill is accepted by AAAI 2023 and EPNet++ is accepted by TPAMI.
-- **Nov 2019:** TANet is accepted by AAAI 2020 as an oral presentation.
+- **Sep 2024:** 🎉 LION is accepted by NeurIPS 2024.
+- **Jul 2024:** 🎉 SEED and OPEN are accepted by ECCV 2024.
+- **Sep 2023:** 🎉 QTNet is accepted by NeurIPS 2023.
+- **Nov 2022:** 🎉 StereoDistill is accepted by AAAI 2023 and EPNet++ is accepted by TPAMI.
+- **Nov 2019:** 🎉 TANet is accepted by AAAI 2020 as an oral presentation.
 
 # Publications
 
@@ -69,12 +69,12 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 <div class='paper-box' id='spectrareward'>
   <div class='paper-box-image'>
-    <div class="paper-image-frame"><div class="badge">NeurIPS 2026 · Spotlight</div><img src='images/spectrareward.jpg' alt="SpectraReward overview and training progress" loading="lazy"></div>
+    <div class="paper-image-frame"><div class="badge">NeurIPS 2026 · Spotlight ✨</div><img src='images/spectrareward.jpg' alt="SpectraReward overview and training progress" loading="lazy"></div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2607.11886">Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation</a></div>
     <div class='paper-authors'>Runhui Huang, Qihui Zhang, <strong>Zhe Liu</strong>, Yu Gao, Jie Wu, Hengshuang Zhao</div>
-    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026. <strong>Spotlight.</strong></div>
+    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026. <strong>Spotlight ✨</strong>.</div>
     <div class='paper-links'><a href="https://huangrh99.github.io/projects/SpectraReward/">[Project]</a><a href="https://arxiv.org/abs/2607.11886">[Paper]</a><a href="https://github.com/huangrh99/AlphaGRPO">[Code]</a></div>
   </div>
 </div>
