@@ -12,7 +12,7 @@ redirect_from:
 
 I am a postdoctoral researcher in the Department of Computer Science at The University of Hong Kong, working with Prof. [Hengshuang Zhao](https://hszhao.github.io/). I received my Ph.D. from the School of Electronic Information and Communications at Huazhong University of Science and Technology, supervised by Prof. [Xiang Bai](https://xbai.vlrlab.net/).
 
-My research focuses on embodied intelligence systems connecting spatial perception, multimodal reasoning, world modeling, and executable actions. I have worked on autonomous driving and 3D perception for over eight years, with recent work spanning Embodied AI, Vision-Language-Action models, 4D MLLMs, and 4D world models. I have published 35+ papers in venues including TPAMI, TIP, CVPR, ICCV, ECCV, NeurIPS, ICML, AAAI, IROS, TITS, and ICRA. As of July 2026, Google Scholar reports 2,362 citations, an h-index of 16, and an i10-index of 17.
+My research focuses on embodied intelligence systems connecting spatial perception, multimodal reasoning, world modeling, and executable actions. I have worked on autonomous driving and 3D perception for over eight years, with recent work spanning Embodied AI, Vision-Language-Action models, 4D MLLMs, and 4D world models. I have published 35+ papers in venues including TPAMI, TIP, CVPR, ICCV, ECCV, NeurIPS, ICML, AAAI, IROS, TITS, and ICRA. As of September 27, 2026, [Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate) reports 2,545 citations, an h-index of 17, and an i10-index of 22.
 
 <div class="research-focus">
   <div><strong>3D Perception</strong><br>LiDAR, multi-view, multi-modal fusion, detection, tracking, occupancy, prediction, and planning.</div>
@@ -31,6 +31,9 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 # News
 
+- **Sep 2026:** Six papers are accepted by **NeurIPS 2026**: [StreamPI](#streampi), [Read It Back / SpectraReward](#spectrareward) (**Spotlight**), [EO-WM](#eowm), [FlowR2A](#flowr2a), [FASTER](#faster), and [SRL-MPC](#srlmpc).
+- **Aug 2026:** [StreamPI](https://happinesslz.github.io/projects/StreamPI/) and [SRL-MPC](https://hanruihua.github.io/srl_mpc_project/) are released.
+- **Jul 2026:** [Read It Back / SpectraReward](https://huangrh99.github.io/projects/SpectraReward/) is released.
 - **Jul 2026:** ACE-Brain-0.5 is released.
 - **Jun 2026:** Visual Spatial Tuning is accepted by ECCV 2026.
 - **Jun 2026:** EO-WM, FlowR2A, Metis, and IR-SIM are released.
@@ -48,7 +51,81 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 # Publications
 
+[Full publication list on Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate).
+
 *: Equal contribution, +: Corresponding Author, †: Project Leader.
+
+<div class='paper-box' id='streampi'>
+  <div class='paper-box-image'>
+    <div class="paper-image-frame"><div class="badge">NeurIPS 2026</div><img src='projects/StreamPI/StreamPI_files/streampi_intro.png' alt="StreamPI streaming multimodal temporal modeling" loading="lazy"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'><a href="https://arxiv.org/abs/2608.26067">StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models</a></div>
+    <div class='paper-authors'><strong>Zhe Liu*</strong>, Jinghua Hou*, Yuxiang Lu, Zhenya Yang, Xianzhe Fan, Junwei Luo, Junyi Li, Ruihua Han, Zhi Hou, Hengshuang Zhao+</div>
+    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026.</div>
+    <div class='paper-links'><a href="https://happinesslz.github.io/projects/StreamPI/">[Project]</a><a href="https://arxiv.org/abs/2608.26067">[Paper]</a><a href="https://github.com/hku-sail/StreamPI">[Code]</a></div>
+  </div>
+</div>
+
+<div class='paper-box' id='spectrareward'>
+  <div class='paper-box-image'>
+    <div class="paper-image-frame"><div class="badge">NeurIPS 2026 · Spotlight</div><img src='images/spectrareward.jpg' alt="SpectraReward overview and training progress" loading="lazy"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'><a href="https://arxiv.org/abs/2607.11886">Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation</a></div>
+    <div class='paper-authors'>Runhui Huang, Qihui Zhang, <strong>Zhe Liu</strong>, Yu Gao, Jie Wu, Hengshuang Zhao</div>
+    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026. <strong>Spotlight.</strong></div>
+    <div class='paper-links'><a href="https://huangrh99.github.io/projects/SpectraReward/">[Project]</a><a href="https://arxiv.org/abs/2607.11886">[Paper]</a><a href="https://github.com/huangrh99/AlphaGRPO">[Code]</a></div>
+  </div>
+</div>
+
+<div class='paper-box' id='eowm'>
+  <div class='paper-box-image'>
+    <div class="paper-image-frame"><div class="badge">NeurIPS 2026</div><img src='images/eowm.png' alt="EO-WM architecture" loading="lazy"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'><a href="https://arxiv.org/abs/2606.27277">EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting</a></div>
+    <div class='paper-authors'>Junwei Luo, Shuai Yuan, Zhenya Yang, Yansheng Li, <strong>Zhe Liu</strong>, Hengshuang Zhao</div>
+    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026.</div>
+    <div class='paper-links'><a href="https://arxiv.org/abs/2606.27277">[Paper]</a><a href="https://github.com/Luo-Z13/EO-WM">[Code]</a></div>
+  </div>
+</div>
+
+<div class='paper-box' id='flowr2a'>
+  <div class='paper-box-image'>
+    <div class="paper-image-frame"><div class="badge">NeurIPS 2026</div><img src='images/flowr2a.png' alt="FlowR2A architecture" loading="lazy"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'><a href="https://arxiv.org/abs/2606.24231">FlowR2A: Learning Reward-to-Action Distribution for Multimodal Driving Planning</a></div>
+    <div class='paper-authors'>Xirui Li, <strong>Zhe Liu†</strong>, Xiaoqing Ye+, Wenhua Han, Yifeng Pan, Junyu Han, Hengshuang Zhao+</div>
+    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026.</div>
+    <div class='paper-links'><a href="https://lixirui142.github.io/flowr2a-ad/">[Project]</a><a href="https://arxiv.org/abs/2606.24231">[Paper]</a><a href="https://github.com/lixirui142/FlowR2A">[Code]</a></div>
+  </div>
+</div>
+
+<div class='paper-box' id='faster'>
+  <div class='paper-box-image'>
+    <div class="paper-image-frame"><div class="badge">NeurIPS 2026</div><img src='images/faster.png' alt="FASTER" loading="lazy"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'><a href="https://arxiv.org/abs/2603.19199">FASTER: Rethinking Real-Time Flow VLAs</a></div>
+    <div class='paper-authors'>Yuxiang Lu, <strong>Zhe Liu†</strong>, Xianzhe Fan, Zhenya Yang, Jinghua Hou, Junyi Li, Kaixin Ding, Hengshuang Zhao</div>
+    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026.</div>
+    <div class='paper-links'><a href="https://innovator-zero.github.io/FASTER/">[Project]</a><a href="https://arxiv.org/abs/2603.19199">[Paper]</a><a href="https://github.com/innovator-zero/FASTER">[Code]</a></div>
+  </div>
+</div>
+
+<div class='paper-box' id='srlmpc'>
+  <div class='paper-box-image'>
+    <div class="paper-image-frame"><div class="badge">NeurIPS 2026</div><img src='images/srlmpc.png' alt="SRL-MPC shape-aware reinforcement learned model predictive control architecture" loading="lazy"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'><a href="https://arxiv.org/abs/2608.21175">SRL-MPC: Shape-Aware Reinforcement Learned Model Predictive Control</a></div>
+    <div class='paper-authors'>Ruihua Han, Rui Gao, <strong>Zhe Liu</strong>, Xinyi Wang, Chang Chen, Shuai Wang, Qi Hao, Jia Pan, Hengshuang Zhao</div>
+    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026.</div>
+    <div class='paper-links'><a href="https://hanruihua.github.io/srl_mpc_project/">[Project]</a><a href="https://arxiv.org/abs/2608.21175">[Paper]</a><a href="https://github.com/hku-sail/srl_mpc">[Code (coming soon)]</a></div>
+  </div>
+</div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -59,30 +136,6 @@ My long-term goal is to build general-purpose embodied intelligence systems that
     <div class='paper-authors'>ACE-Brain Team: Ziyang Gong, Haoming Gu, Zehang Luo, Tianyi Zhang, Tao Tao, Yixiao Chi, <strong>Zhe Liu</strong>, Lingsi Zhu, Jingyuan Liu, Anke Tang, et al.</div>
     <div class='paper-venue'>arXiv preprint, 2026.</div>
     <div class='paper-links'><a href="https://ace-brain-team.github.io/ACE-Brain-0.5/">[Project]</a><a href="https://arxiv.org/abs/2607.04426">[Paper]</a><a href="https://github.com/ACE-BRAIN-Team/ACE-Brain-0.5">[Code]</a></div>
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class="paper-image-frame"><div class="badge">arXiv 2026</div><img src='images/eowm.png' alt="EO-WM architecture" loading="lazy"></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'><a href="https://arxiv.org/abs/2606.27277">EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting</a></div>
-    <div class='paper-authors'>Junwei Luo, Shuai Yuan, Zhenya Yang, Yansheng Li, <strong>Zhe Liu</strong>, Hengshuang Zhao</div>
-    <div class='paper-venue'>arXiv preprint, 2026.</div>
-    <div class='paper-links'><a href="https://arxiv.org/abs/2606.27277">[Paper]</a><a href="https://github.com/Luo-Z13/EO-WM">[Code]</a></div>
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class="paper-image-frame"><div class="badge">arXiv 2026</div><img src='images/flowr2a.png' alt="FlowR2A architecture" loading="lazy"></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'><a href="https://arxiv.org/abs/2606.24231">FlowR2A: Learning Reward-to-Action Distribution for Multimodal Driving Planning</a></div>
-    <div class='paper-authors'>Xirui Li, <strong>Zhe Liu†</strong>, Xiaoqing Ye+, Wenhua Han, Yifeng Pan, Junyu Han, Hengshuang Zhao+</div>
-    <div class='paper-venue'>arXiv preprint, 2026.</div>
-    <div class='paper-links'><a href="https://lixirui142.github.io/flowr2a-ad/">[Project]</a><a href="https://arxiv.org/abs/2606.24231">[Paper]</a><a href="https://github.com/lixirui142/FlowR2A">[Code]</a></div>
   </div>
 </div>
 
@@ -131,18 +184,6 @@ My long-term goal is to build general-purpose embodied intelligence systems that
     <div class='paper-authors'>Runhui Huang, Jie Wu, Rui Yang, <strong>Zhe Liu</strong>, Hengshuang Zhao</div>
     <div class='paper-venue'>International Conference on Machine Learning (<strong>ICML</strong>), 2026.</div>
     <div class='paper-links'><a href="https://huangrh99.github.io/AlphaGRPO/">[Project]</a><a href="https://arxiv.org/abs/2605.12495">[Paper]</a><a href="https://github.com/huangrh99/AlphaGRPO">[Code]</a></div>
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class="paper-image-frame"><div class="badge">arXiv 2026</div><img src='images/faster.png' alt="FASTER" loading="lazy"></div>
-  </div>
-  <div class='paper-box-text'>
-    <div class='paper-title'><a href="https://arxiv.org/abs/2603.19199">FASTER: Rethinking Real-Time Flow VLAs</a></div>
-    <div class='paper-authors'>Yuxiang Lu, <strong>Zhe Liu†</strong>, Xianzhe Fan, Zhenya Yang, Jinghua Hou, Junyi Li, Kaixin Ding, Hengshuang Zhao</div>
-    <div class='paper-venue'>arXiv preprint, 2026.</div>
-    <div class='paper-links'><a href="https://innovator-zero.github.io/FASTER/">[Project]</a><a href="https://arxiv.org/abs/2603.19199">[Paper]</a><a href="https://github.com/innovator-zero/FASTER">[Code]</a></div>
   </div>
 </div>
 
