@@ -435,6 +435,23 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 - **Journal Reviewer:** **TPAMI**, **TIP**, **TCSVT**, **TITS**, **RA-L**, **SCIS**, **TGRS**.
 - **Invited Talks:** Machine Intelligence, Midea Research Institute, 3D CVer, Shuzihuanyu, The Heart of Autonomous Driving, and Huawei Yinwang Intelligent Technology.
 
+# Industry Collaborations
+
+I have previously collaborated with the following companies and research teams.
+
+<ul class="collaboration-grid">
+{% for company in site.data.industry_collaborations %}
+  <li>
+    <a class="collaboration-card" href="{{ company.url }}" target="_blank" rel="noopener noreferrer" style="--company-accent: {{ company.accent }}; --company-tint: {{ company.tint }};">
+      <span class="collaboration-arrow" aria-hidden="true">↗</span>
+      <span class="collaboration-logo {{ company.logo_class }}"><img src="{{ company.logo | relative_url }}" alt="" loading="lazy" decoding="async"></span>
+      <span class="collaboration-name">{{ company.name }}</span>
+      <span class="collaboration-name-zh" lang="zh-CN">{{ company.name_zh }}</span>
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
 # Contact
 
 - **Email:** [zheliu12@hku.hk](mailto:zheliu12@hku.hk)

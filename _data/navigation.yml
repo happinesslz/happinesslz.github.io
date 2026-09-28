@@ -15,5 +15,8 @@ main:
   - title: "Professional Service"
     url: "/#professional-service"
 
+  - title: "Collaborations"
+    url: "/#industry-collaborations"
+
   - title: "Contact"
     url: "/#contact"
