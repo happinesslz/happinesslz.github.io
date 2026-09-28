@@ -12,7 +12,7 @@ redirect_from:
 
 I am a postdoctoral researcher in the Department of Computer Science at The University of Hong Kong, working with Prof. [Hengshuang Zhao](https://hszhao.github.io/). I received my Ph.D. from the School of Electronic Information and Communications at Huazhong University of Science and Technology, supervised by Prof. [Xiang Bai](https://xbai.vlrlab.net/).
 
-My research focuses on embodied intelligence systems connecting spatial perception, multimodal reasoning, world modeling, and executable actions. I have worked on autonomous driving and 3D perception for over eight years, with recent work spanning Embodied AI, Vision-Language-Action models, 4D MLLMs, and 4D world models. I have published 35+ papers in venues including TPAMI, TIP, CVPR, ICCV, ECCV, NeurIPS, ICML, AAAI, IROS, TITS, and ICRA. As of September 27, 2026, [Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate) reports 2,545 citations, an h-index of 17, and an i10-index of 22.
+My research focuses on embodied intelligence systems connecting spatial perception, multimodal reasoning, world modeling, and executable actions. I have worked on autonomous driving and 3D perception for over eight years, with recent work spanning Embodied AI, Vision-Language-Action models, 4D MLLMs, and 4D world models. I have published 35+ papers in venues including **TPAMI**, **TIP**, **CVPR**, **ICCV**, **ECCV**, **NeurIPS**, **ICML**, **AAAI**, **IROS**, **TITS**, and **ICRA**. As of September 27, 2026, [Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate) reports 2,545 citations, an h-index of 17, and an i10-index of 22.
 
 <div class="research-focus">
   <div><strong>3D Perception</strong><br>LiDAR, multi-view, multi-modal fusion, detection, tracking, occupancy, prediction, and planning.</div>
@@ -35,19 +35,20 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 - **Aug 2026:** 🚀 [StreamPI](https://happinesslz.github.io/projects/StreamPI/) and [SRL-MPC](https://hanruihua.github.io/srl_mpc_project/) are released.
 - **Jul 2026:** 🚀 [Read It Back / SpectraReward](https://huangrh99.github.io/projects/SpectraReward/) is released.
 - **Jul 2026:** 🚀 ACE-Brain-0.5 is released.
-- **Jun 2026:** 🎉 Visual Spatial Tuning is accepted by ECCV 2026.
+- **Jun 2026:** 🎉 Visual Spatial Tuning is accepted by **ECCV 2026**.
 - **Jun 2026:** EO-WM, FlowR2A, Metis, and IR-SIM are released.
+- **May 2026:** 🎉 AlphaGRPO is accepted by **ICML 2026**.
 - **May 2026:** MCNav and AlphaGRPO are released.
 - **Mar 2026:** FASTER and ACE-Brain-0 are released.
-- **Feb 2026:** 🎉 DrivePI and GenieDrive are accepted by CVPR 2026.
+- **Feb 2026:** 🎉 DrivePI and GenieDrive are accepted by **CVPR 2026**.
 - **Dec 2025:** DrivePI and GenieDrive are released.
 - **Nov 2025:** UniLION and Visual Spatial Tuning are released.
 - **Nov 2025:** Invited to give a talk at Huawei Yinwang Intelligent Technology, with over 100 researchers attending.
-- **Sep 2024:** 🎉 LION is accepted by NeurIPS 2024.
-- **Jul 2024:** 🎉 SEED and OPEN are accepted by ECCV 2024.
-- **Sep 2023:** 🎉 QTNet is accepted by NeurIPS 2023.
-- **Nov 2022:** 🎉 StereoDistill is accepted by AAAI 2023 and EPNet++ is accepted by TPAMI.
-- **Nov 2019:** 🎉 TANet is accepted by AAAI 2020 as an oral presentation.
+- **Sep 2024:** 🎉 LION is accepted by **NeurIPS 2024**.
+- **Jul 2024:** 🎉 SEED and OPEN are accepted by **ECCV 2024**.
+- **Sep 2023:** 🎉 QTNet is accepted by **NeurIPS 2023**.
+- **Nov 2022:** 🎉 StereoDistill is accepted by **AAAI 2023** and EPNet++ is accepted by **TPAMI**.
+- **Nov 2019:** 🎉 TANet is accepted by **AAAI 2020** as an oral presentation.
 
 # Publications
 
@@ -62,7 +63,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2608.26067">StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models</a></div>
     <div class='paper-authors'><strong>Zhe Liu*</strong>, Jinghua Hou*, Yuxiang Lu, Zhenya Yang, Xianzhe Fan, Junwei Luo, Junyi Li, Ruihua Han, Zhi Hou, Hengshuang Zhao+</div>
-    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026.</div>
+    <div class='paper-venue'><strong>Neural Information Processing Systems (NeurIPS), 2026</strong>.</div>
     <div class='paper-links'><a href="https://happinesslz.github.io/projects/StreamPI/">[Project]</a><a href="https://arxiv.org/abs/2608.26067">[Paper]</a><a href="https://github.com/hku-sail/StreamPI">[Code]</a></div>
   </div>
 </div>
@@ -74,7 +75,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2607.11886">Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation</a></div>
     <div class='paper-authors'>Runhui Huang, Qihui Zhang, <strong>Zhe Liu</strong>, Yu Gao, Jie Wu, Hengshuang Zhao</div>
-    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026. <strong>Spotlight ✨</strong>.</div>
+    <div class='paper-venue'><strong>Neural Information Processing Systems (NeurIPS), 2026</strong>. <strong>Spotlight ✨</strong>.</div>
     <div class='paper-links'><a href="https://huangrh99.github.io/projects/SpectraReward/">[Project]</a><a href="https://arxiv.org/abs/2607.11886">[Paper]</a><a href="https://github.com/huangrh99/AlphaGRPO">[Code]</a></div>
   </div>
 </div>
@@ -86,7 +87,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2606.27277">EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting</a></div>
     <div class='paper-authors'>Junwei Luo, Shuai Yuan, Zhenya Yang, Yansheng Li, <strong>Zhe Liu</strong>, Hengshuang Zhao</div>
-    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026.</div>
+    <div class='paper-venue'><strong>Neural Information Processing Systems (NeurIPS), 2026</strong>.</div>
     <div class='paper-links'><a href="https://arxiv.org/abs/2606.27277">[Paper]</a><a href="https://github.com/Luo-Z13/EO-WM">[Code]</a></div>
   </div>
 </div>
@@ -98,7 +99,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2606.24231">FlowR2A: Learning Reward-to-Action Distribution for Multimodal Driving Planning</a></div>
     <div class='paper-authors'>Xirui Li, <strong>Zhe Liu†</strong>, Xiaoqing Ye+, Wenhua Han, Yifeng Pan, Junyu Han, Hengshuang Zhao+</div>
-    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026.</div>
+    <div class='paper-venue'><strong>Neural Information Processing Systems (NeurIPS), 2026</strong>.</div>
     <div class='paper-links'><a href="https://lixirui142.github.io/flowr2a-ad/">[Project]</a><a href="https://arxiv.org/abs/2606.24231">[Paper]</a><a href="https://github.com/lixirui142/FlowR2A">[Code]</a></div>
   </div>
 </div>
@@ -110,7 +111,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2603.19199">FASTER: Rethinking Real-Time Flow VLAs</a></div>
     <div class='paper-authors'>Yuxiang Lu, <strong>Zhe Liu†</strong>, Xianzhe Fan, Zhenya Yang, Jinghua Hou, Junyi Li, Kaixin Ding, Hengshuang Zhao</div>
-    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026.</div>
+    <div class='paper-venue'><strong>Neural Information Processing Systems (NeurIPS), 2026</strong>.</div>
     <div class='paper-links'><a href="https://innovator-zero.github.io/FASTER/">[Project]</a><a href="https://arxiv.org/abs/2603.19199">[Paper]</a><a href="https://github.com/innovator-zero/FASTER">[Code]</a></div>
   </div>
 </div>
@@ -122,7 +123,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2608.21175">SRL-MPC: Shape-Aware Reinforcement Learned Model Predictive Control</a></div>
     <div class='paper-authors'>Ruihua Han, Rui Gao, <strong>Zhe Liu</strong>, Xinyi Wang, Chang Chen, Shuai Wang, Qi Hao, Jia Pan, Hengshuang Zhao</div>
-    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2026.</div>
+    <div class='paper-venue'><strong>Neural Information Processing Systems (NeurIPS), 2026</strong>.</div>
     <div class='paper-links'><a href="https://hanruihua.github.io/srl_mpc_project/">[Project]</a><a href="https://arxiv.org/abs/2608.21175">[Paper]</a><a href="https://github.com/hku-sail/srl_mpc">[Code (coming soon)]</a></div>
   </div>
 </div>
@@ -182,7 +183,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2605.12495">AlphaGRPO: Unlocking Self-Reflective Multimodal Generation in UMMs via Decompositional Verifiable Reward</a></div>
     <div class='paper-authors'>Runhui Huang, Jie Wu, Rui Yang, <strong>Zhe Liu</strong>, Hengshuang Zhao</div>
-    <div class='paper-venue'>International Conference on Machine Learning (<strong>ICML</strong>), 2026.</div>
+    <div class='paper-venue'><strong>International Conference on Machine Learning (ICML), 2026</strong>.</div>
     <div class='paper-links'><a href="https://huangrh99.github.io/AlphaGRPO/">[Project]</a><a href="https://arxiv.org/abs/2605.12495">[Paper]</a><a href="https://github.com/huangrh99/AlphaGRPO">[Code]</a></div>
   </div>
 </div>
@@ -206,7 +207,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2512.12751">GenieDrive: Towards Physics-Aware Driving World Model with 4D Occupancy Guided Video Generation</a></div>
     <div class='paper-authors'>Zhenya Yang, <strong>Zhe Liu†</strong>, Yuxiang Lu, Liping Hou, Chenxuan Miao, Siyi Peng, Bailan Feng, Xiang Bai, Hengshuang Zhao+</div>
-    <div class='paper-venue'>Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2026.</div>
+    <div class='paper-venue'><strong>Computer Vision and Pattern Recognition (CVPR), 2026</strong>.</div>
     <div class='paper-links'><a href="https://arxiv.org/abs/2512.12751">[Paper]</a><a href="https://github.com/Huster-YZY/GenieDrive">[Code]</a></div>
   </div>
 </div>
@@ -218,7 +219,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2512.12799">DrivePI: Spatial-aware 4D MLLM for Unified Autonomous Driving Understanding, Perception, Prediction and Planning</a></div>
     <div class='paper-authors'><strong>Zhe Liu</strong>, Runhui Huang, Rui Yang, Siming Yan, Zining Wang, Lu Hou, Di Lin, Xiang Bai, Hengshuang Zhao+</div>
-    <div class='paper-venue'>Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2026.</div>
+    <div class='paper-venue'><strong>Computer Vision and Pattern Recognition (CVPR), 2026</strong>.</div>
     <div class='paper-links'><a href="https://github.com/happinesslz/DrivePI">[Project]</a><a href="https://arxiv.org/abs/2512.12799">[Paper]</a><a href="https://github.com/happinesslz/DrivePI">[Code]</a></div>
   </div>
 </div>
@@ -230,7 +231,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2512.23147">GeoTeacher: Geometry-Guided Semi-Supervised 3D Object Detection</a></div>
     <div class='paper-authors'>Jingyu Li, Xiaolong Zhao, <strong>Zhe Liu</strong>, Wenxiao Wu, Li Zhang</div>
-    <div class='paper-venue'>International Conference on Robotics and Automation (<strong>ICRA</strong>), 2026.</div>
+    <div class='paper-venue'><strong>International Conference on Robotics and Automation (ICRA), 2026</strong>.</div>
     <div class='paper-links'><a href="https://arxiv.org/abs/2512.23147">[Paper]</a><a href="https://github.com/SII-Whaleice/GeoTeacher">[Code]</a></div>
   </div>
 </div>
@@ -242,7 +243,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2511.05491">Visual Spatial Tuning</a></div>
     <div class='paper-authors'>Rui Yang, Ziyu Zhu, Yanwei Li, Jingjia Huang, Shen Yan, Siyuan Zhou, <strong>Zhe Liu</strong>, Xiangtai Li, Shuangye Li, Wenqian Wang, Yi Lin, Hengshuang Zhao</div>
-    <div class='paper-venue'>European Conference on Computer Vision (<strong>ECCV</strong>), 2026.</div>
+    <div class='paper-venue'><strong>European Conference on Computer Vision (ECCV), 2026</strong>.</div>
     <div class='paper-links'><a href="https://arxiv.org/abs/2511.05491">[Paper]</a></div>
   </div>
 </div>
@@ -266,7 +267,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Wang_Describe_Adapt_and_Combine_Empowering_CLIP_Encoders_for_Open-set_3D_ICCV_2025_paper.html">Describe, Adapt and Combine: Empowering CLIP Encoders for Open-set 3D Object Retrieval</a></div>
     <div class='paper-authors'>Zhichuan Wang, Yang Zhou, <strong>Zhe Liu</strong>, Rui Yu, Song Bai, Yulong Wang, Xinwei He, Xiang Bai</div>
-    <div class='paper-venue'>International Conference on Computer Vision (<strong>ICCV</strong>), 2025.</div>
+    <div class='paper-venue'><strong>International Conference on Computer Vision (ICCV), 2025</strong>.</div>
     <div class='paper-links'><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Wang_Describe_Adapt_and_Combine_Empowering_CLIP_Encoders_for_Open-set_3D_ICCV_2025_paper.html">[Paper]</a><a href="https://github.com/wangzhichuan123/DAC">[Code]</a></div>
   </div>
 </div>
@@ -278,7 +279,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2507.18575">HybridTM: Combining Transformer and Mamba for 3D Semantic Segmentation</a></div>
     <div class='paper-authors'>Xinyu Wang, Jinghua Hou, <strong>Zhe Liu</strong>, Yingying Zhu</div>
-    <div class='paper-venue'>IEEE/RSJ International Conference on Intelligent Robots and Systems (<strong>IROS</strong>), 2025.</div>
+    <div class='paper-venue'><strong>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025</strong>.</div>
     <div class='paper-links'><a href="https://arxiv.org/abs/2507.18575">[Paper]</a><a href="https://github.com/deepinact/HybridTM">[Code]</a></div>
   </div>
 </div>
@@ -290,7 +291,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2407.18232">LION: Linear Group RNN for 3D Object Detection in Point Clouds</a></div>
     <div class='paper-authors'><strong>Zhe Liu*</strong>, Jinghua Hou*, Xingyu Wang, Xiaoqing Ye, Jingdong Wang, Hengshuang Zhao, Xiang Bai</div>
-    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024.</div>
+    <div class='paper-venue'><strong>Neural Information Processing Systems (NeurIPS), 2024</strong>.</div>
     <div class='paper-links'><a href="https://happinesslz.github.io/projects/LION/">[Project]</a><a href="https://arxiv.org/abs/2407.18232">[Paper]</a><a href="https://github.com/happinesslz/LION">[Code]</a></div>
   </div>
 </div>
@@ -302,7 +303,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/pdf/2407.10749">SEED: A Simple and Effective 3D DETR in Point Clouds</a></div>
     <div class='paper-authors'><strong>Zhe Liu*</strong>, Jinghua Hou*, Xiaoqing Ye, Tong Wang, Jingdong Wang, Xiang Bai</div>
-    <div class='paper-venue'>European Conference on Computer Vision (<strong>ECCV</strong>), 2024.</div>
+    <div class='paper-venue'><strong>European Conference on Computer Vision (ECCV), 2024</strong>.</div>
     <div class='paper-links'><a href="https://arxiv.org/pdf/2407.10749">[Paper]</a><a href="https://github.com/happinesslz/SEED">[Code]</a></div>
   </div>
 </div>
@@ -314,7 +315,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/pdf/2407.10753">OPEN: Object-wise Position Embedding for Multi-view 3D Object Detection</a></div>
     <div class='paper-authors'>Jinghua Hou, Tong Wang, Xiaoqing Ye, <strong>Zhe Liu</strong>, Shi Gong, Xiao Tan, Errui Ding, Jingdong Wang, Xiang Bai</div>
-    <div class='paper-venue'>European Conference on Computer Vision (<strong>ECCV</strong>), 2024.</div>
+    <div class='paper-venue'><strong>European Conference on Computer Vision (ECCV), 2024</strong>.</div>
     <div class='paper-links'><a href="https://arxiv.org/pdf/2407.10753">[Paper]</a><a href="https://github.com/AlmoonYsl/OPEN">[Code]</a></div>
   </div>
 </div>
@@ -326,7 +327,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/pdf/2305.07713">Multi-Modal 3D Object Detection by Box Matching</a></div>
     <div class='paper-authors'><strong>Zhe Liu</strong>, Xiaoqing Ye, Zhikang Zou, Xinwei He, Xiao Tan, Errui Ding, Jingdong Wang, Xiang Bai</div>
-    <div class='paper-venue'>IEEE Transactions on Intelligent Transportation Systems (<strong>TITS</strong>), 2024.</div>
+    <div class='paper-venue'><strong>IEEE Transactions on Intelligent Transportation Systems (TITS), 2024</strong>.</div>
     <div class='paper-links'><a href="https://arxiv.org/pdf/2305.07713">[Paper]</a><a href="https://github.com/happinesslz/FBMNet">[Code]</a></div>
   </div>
 </div>
@@ -338,7 +339,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://openreview.net/pdf?id=gySmwdmVDF">Query-based Temporal Fusion with Explicit Motion for 3D Object Detection</a></div>
     <div class='paper-authors'>Jinghua Hou*, <strong>Zhe Liu*</strong>, Dingkang Liang, Zhikang Zou, Xiaoqing Ye, Xiang Bai</div>
-    <div class='paper-venue'>Neural Information Processing Systems (<strong>NeurIPS</strong>), 2023.</div>
+    <div class='paper-venue'><strong>Neural Information Processing Systems (NeurIPS), 2023</strong>.</div>
     <div class='paper-links'><a href="https://openreview.net/pdf?id=gySmwdmVDF">[Paper]</a><a href="https://github.com/AlmoonYsl/QTNet">[Code]</a></div>
   </div>
 </div>
@@ -350,7 +351,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_A_Simple_Vision_Transformer_for_Weakly_Semi-supervised_3D_Object_Detection_ICCV_2023_paper.pdf">A Simple Vision Transformer for Weakly Semi-supervised 3D Object Detection</a></div>
     <div class='paper-authors'>Dingyuan Zhang*, Dingkang Liang*, Zhikang Zou*, Jingyu Li, Xiaoqing Ye, <strong>Zhe Liu</strong>, Xiao Tan, Xiang Bai</div>
-    <div class='paper-venue'>International Conference on Computer Vision (<strong>ICCV</strong>), 2023.</div>
+    <div class='paper-venue'><strong>International Conference on Computer Vision (ICCV), 2023</strong>.</div>
     <div class='paper-links'><a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_A_Simple_Vision_Transformer_for_Weakly_Semi-supervised_3D_Object_Detection_ICCV_2023_paper.pdf">[Paper]</a></div>
   </div>
 </div>
@@ -362,7 +363,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/pdf/2303.05079">DDS3D: Dense Pseudo-Labels with Dynamic Threshold for Semi-Supervised 3D Object Detection</a></div>
     <div class='paper-authors'>Jingyu Li*, <strong>Zhe Liu*</strong>, Jinghua Hou, Dingkang Liang</div>
-    <div class='paper-venue'>International Conference on Robotics and Automation (<strong>ICRA</strong>), 2023.</div>
+    <div class='paper-venue'><strong>International Conference on Robotics and Automation (ICRA), 2023</strong>.</div>
     <div class='paper-links'><a href="https://arxiv.org/pdf/2303.05079">[Paper]</a><a href="https://github.com/Whale-ice/DDS3D">[Code]</a></div>
   </div>
 </div>
@@ -374,7 +375,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://ojs.aaai.org/index.php/AAAI/article/download/25268/25040">StereoDistill: Pick the Cream from LiDAR for Distilling Stereo-based 3D Object Detection</a></div>
     <div class='paper-authors'><strong>Zhe Liu</strong>, Xiaoqing Ye, Xiao Tan, Errui Ding, Xiang Bai</div>
-    <div class='paper-venue'>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2023.</div>
+    <div class='paper-venue'><strong>AAAI Conference on Artificial Intelligence (AAAI), 2023</strong>.</div>
     <div class='paper-links'><a href="https://ojs.aaai.org/index.php/AAAI/article/download/25268/25040">[Paper]</a></div>
   </div>
 </div>
@@ -386,7 +387,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/pdf/2112.11088">EPNet++: Cascade Bi-directional Fusion for Multi-Modal 3D Object Detection</a></div>
     <div class='paper-authors'><strong>Zhe Liu</strong>, Tengteng Huang, Bingling Li, Xiwu Chen, Xi Wang, Xiang Bai</div>
-    <div class='paper-venue'>IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>), 2022.</div>
+    <div class='paper-venue'><strong>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022</strong>.</div>
     <div class='paper-links'><a href="https://arxiv.org/pdf/2112.11088">[Paper]</a><a href="https://github.com/happinesslz/EPNetV2">[Code]</a></div>
   </div>
 </div>
@@ -398,7 +399,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/pdf/2007.08856">EPNet: Enhancing Point Features with Image Semantics for 3D Object Detection</a></div>
     <div class='paper-authors'>Tengteng Huang*, <strong>Zhe Liu*</strong>, Xiwu Chen, Xiang Bai</div>
-    <div class='paper-venue'>European Conference on Computer Vision (<strong>ECCV</strong>), 2020.</div>
+    <div class='paper-venue'><strong>European Conference on Computer Vision (ECCV), 2020</strong>.</div>
     <div class='paper-links'><a href="https://arxiv.org/pdf/2007.08856">[Paper]</a><a href="https://github.com/happinesslz/EPNet">[Code]</a></div>
   </div>
 </div>
@@ -410,7 +411,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/pdf/1912.05163">TANet: Robust 3D Object Detection from Point Clouds with Triple Attention</a></div>
     <div class='paper-authors'><strong>Zhe Liu</strong>, Xin Zhao, Tengteng Huang, Ruolan Hu, Yu Zhou, Xiang Bai</div>
-    <div class='paper-venue'>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2020. Oral presentation.</div>
+    <div class='paper-venue'><strong>AAAI Conference on Artificial Intelligence (AAAI), 2020</strong>. Oral presentation.</div>
     <div class='paper-links'><a href="https://arxiv.org/pdf/1912.05163">[Paper]</a><a href="https://github.com/happinesslz/TANet">[Code]</a></div>
   </div>
 </div>
@@ -422,16 +423,16 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/1901.02237">3D Object Detection Using Scale Invariant and Feature Reweighting Networks</a></div>
     <div class='paper-authors'>Xin Zhao, <strong>Zhe Liu+</strong>, Ruolan Hu, Kaiqi Huang</div>
-    <div class='paper-venue'>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2019.</div>
+    <div class='paper-venue'><strong>AAAI Conference on Artificial Intelligence (AAAI), 2019</strong>.</div>
     <div class='paper-links'><a href="https://arxiv.org/abs/1901.02237">[Paper]</a></div>
   </div>
 </div>
 
 # Professional Service
 
-- **Conference Area Chair:** ICLR 2026.
-- **Conference Reviewer:** CVPR, ICCV, ECCV, ICLR, ICML, NeurIPS, AAAI, IJCAI, ICRA, ICASSP, ACM Multimedia Asia.
-- **Journal Reviewer:** TPAMI, TIP, TCSVT, TITS, RA-L, SCIS, TGRS.
+- **Conference Area Chair:** **ICLR 2026**.
+- **Conference Reviewer:** **CVPR**, **ICCV**, **ECCV**, **ICLR**, **ICML**, **NeurIPS**, **AAAI**, **IJCAI**, **ICRA**, **ICASSP**, **ACM Multimedia Asia**.
+- **Journal Reviewer:** **TPAMI**, **TIP**, **TCSVT**, **TITS**, **RA-L**, **SCIS**, **TGRS**.
 - **Invited Talks:** Machine Intelligence, Midea Research Institute, 3D CVer, Shuzihuanyu, The Heart of Autonomous Driving, and Huawei Yinwang Intelligent Technology.
 
 # Contact
