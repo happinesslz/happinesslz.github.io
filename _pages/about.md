@@ -429,7 +429,8 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 # Professional Service
 
-- **Conference Reviewer:** CVPR, ICCV, ECCV, ICLR, NeurIPS, AAAI, IJCAI, ICRA, ICASSP, ACM Multimedia Asia.
+- **Conference Area Chair:** ICLR 2026.
+- **Conference Reviewer:** CVPR, ICCV, ECCV, ICLR, ICML, NeurIPS, AAAI, IJCAI, ICRA, ICASSP, ACM Multimedia Asia.
 - **Journal Reviewer:** TPAMI, TIP, TCSVT, TITS, RA-L, SCIS, TGRS.
 - **Invited Talks:** Machine Intelligence, Midea Research Institute, 3D CVer, Shuzihuanyu, The Heart of Autonomous Driving, and Huawei Yinwang Intelligent Technology.
 
