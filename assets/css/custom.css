@@ -175,8 +175,8 @@
 .page__content .collaboration-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 16px;
-  margin: 1.25rem 0 1.75rem;
+  gap: 14px;
+  margin: 1rem 0 1.5rem;
   padding: 0;
   list-style: none;
 }
@@ -193,13 +193,13 @@
   flex-direction: column;
   align-items: center;
   height: 100%;
-  padding: 28px 16px 20px;
+  padding: 20px 14px 16px;
   color: #202938;
-  background: linear-gradient(155deg, #fff 45%, var(--company-tint));
+  background: linear-gradient(145deg, #fff 65%, var(--company-tint));
   border: 1px solid #e5e9f0;
-  border-top: 3px solid var(--company-accent);
-  border-radius: 14px;
-  box-shadow: 0 4px 16px rgba(24, 42, 73, 0.05);
+  border-top: 2px solid var(--company-accent);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(24, 42, 73, 0.025);
   text-align: center;
   text-decoration: none;
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
@@ -208,9 +208,9 @@
 .page__content .collaboration-card:hover {
   color: #202938;
   border-color: var(--company-accent);
-  box-shadow: 0 10px 24px rgba(24, 42, 73, 0.12);
+  box-shadow: 0 6px 16px rgba(24, 42, 73, 0.09);
   text-decoration: none;
-  transform: translateY(-4px);
+  transform: translateY(-2px);
 }
 
 .collaboration-card:focus-visible {
@@ -220,11 +220,16 @@
 
 .collaboration-arrow {
   position: absolute;
-  top: 8px;
-  right: 12px;
-  color: var(--company-accent);
-  font-size: 1rem;
+  top: 10px;
+  right: 10px;
+  color: #8893a3;
+  font-size: 0.8rem;
   line-height: 1;
+}
+
+.collaboration-card:hover .collaboration-arrow,
+.collaboration-card:focus-visible .collaboration-arrow {
+  color: var(--company-accent);
 }
 
 .collaboration-logo {
@@ -232,8 +237,8 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 76px;
-  margin-bottom: 18px;
+  height: 44px;
+  margin-bottom: 12px;
   overflow: hidden;
 }
 
@@ -241,24 +246,25 @@
   display: block;
   width: auto;
   height: auto;
-  max-width: 100%;
-  max-height: 58px;
+  max-width: min(120px, 100%);
+  max-height: 32px;
   border-radius: 0;
 }
 
 .collaboration-logo--changan img {
-  width: 220px;
-  max-width: 140%;
+  width: 170px;
+  max-width: 130%;
   max-height: none;
 }
 
 .collaboration-logo--baidu img {
-  max-height: 76px;
+  max-width: min(112px, 100%);
+  max-height: 52px;
   mix-blend-mode: multiply;
 }
 
 .collaboration-logo--ace img {
-  width: 140px;
+  width: 90px;
 }
 
 .page__content .collaboration-card:hover img {
@@ -269,14 +275,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 2.8em;
-  font-size: 0.92rem;
+  min-height: 2.7em;
+  font-size: 0.88rem;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.35;
 }
 
 .collaboration-name-zh {
-  margin-top: 6px;
+  margin-top: 4px;
   color: #5a6575;
   font-size: 0.76rem;
   line-height: 1.5;
@@ -294,7 +300,7 @@
   }
 
   .page__content .collaboration-card {
-    padding: 24px 12px 16px;
+    padding: 18px 10px 14px;
   }
 
   .collaboration-name {
