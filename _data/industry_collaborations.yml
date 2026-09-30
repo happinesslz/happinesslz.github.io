@@ -14,7 +14,7 @@
 
 - name: "Baidu"
   name_zh: "百度"
-  url: "https://www.baidu.com/"
+  url: "https://home.baidu.com/"
   logo: "/images/companies/baidu.png"
   logo_class: "collaboration-logo--baidu"
   accent: "#2932e1"
