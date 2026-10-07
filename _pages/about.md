@@ -31,6 +31,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 # News
 
+- **Sep 2026:** 🚀 [PanoVLN](#panovln) is released, exploring effective panoramic vision-and-language navigation.
 - **Sep 2026:** 🎉 Six papers are accepted by **NeurIPS 2026**: [StreamPI](#streampi), [Read It Back / SpectraReward](#spectrareward) (**Spotlight ✨**), [EO-WM](#eowm), [FlowR2A](#flowr2a), [FASTER](#faster), and [SRL-MPC](#srlmpc).
 - **Aug 2026:** 🚀 [StreamPI](https://happinesslz.github.io/projects/StreamPI/) and [SRL-MPC](https://hanruihua.github.io/srl_mpc_project/) are released.
 - **Jul 2026:** 🚀 [Read It Back / SpectraReward](https://huangrh99.github.io/projects/SpectraReward/) is released.
@@ -55,6 +56,18 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 [Full publication list on Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate).
 
 *: Equal contribution, +: Corresponding Author, †: Project Leader.
+
+<div class='paper-box' id='panovln'>
+  <div class='paper-box-image'>
+    <div class="paper-image-frame"><div class="badge">arXiv 2026</div><img src='images/panovln.webp' alt="PanoVLN panoramic navigation overview with simulation and real-world examples" loading="lazy"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'><a href="https://arxiv.org/abs/2609.34759">PanoVLN: Towards Effective Panoramic Vision-and-Language Navigation</a></div>
+    <div class='paper-authors'>Zhen Wang, Changpeng Wang, <strong>Zhe Liu</strong>, Zhangyang Qi, Yuxiang Lu, Zimo Zeng, Donglian Qi, Xi Chen</div>
+    <div class='paper-venue'>arXiv preprint, 2026.</div>
+    <div class='paper-links'><a href="https://wangzhen-w.github.io/PanoVLN/">[Project]</a><a href="https://arxiv.org/abs/2609.34759">[Paper]</a><a href="https://github.com/wangzhen-w/PanoVLN">[Code]</a></div>
+  </div>
+</div>
 
 <div class='paper-box' id='streampi'>
   <div class='paper-box-image'>
