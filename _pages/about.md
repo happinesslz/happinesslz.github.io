@@ -454,7 +454,7 @@ I have previously collaborated with the following companies and research teams.
 
 # Contact
 
-- **Email:** [zheliu12@hku.hk](mailto:zheliu12@hku.hk)
+- **Email:** [happinesslzcq@gmail.com](mailto:happinesslzcq@gmail.com)
 - **CV:** [Download CV](data/cv_zheliu_hku.pdf)
 - **Google Scholar:** [Profile](https://scholar.google.com/citations?hl=zh-CN&user=yprv7EsAAAAJ&view_op=list_works)
 - **GitHub:** [happinesslz](https://github.com/happinesslz/)
