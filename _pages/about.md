@@ -56,7 +56,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 [Full publication list on Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate).
 
-*: Equal contribution, +: Corresponding Author, †: Project Leader.
+*: Equal contribution, ✉: Corresponding Author, †: Project Leader.
 
 <div class='paper-box' id='dvd'>
   <div class='paper-box-image'>
@@ -64,7 +64,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2610.12266">DVD: Dynamic Vector Decoding for Efficient MLLM-based Perception</a></div>
-    <div class='paper-authors'>Jinghua Hou, <strong>Zhe Liu†</strong>, Hengshuang Zhao+</div>
+    <div class='paper-authors'>Jinghua Hou, <strong>Zhe Liu†</strong>, Hengshuang Zhao<sup title="Corresponding author">✉</sup></div>
     <div class='paper-venue'>arXiv preprint, 2026.</div>
     <div class='paper-links'><a href="https://almoonysl.github.io/projects/DVD/">[Project]</a><a href="https://arxiv.org/abs/2610.12266">[Paper]</a></div>
   </div>
@@ -88,7 +88,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2608.26067">StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models</a></div>
-    <div class='paper-authors'><strong>Zhe Liu*</strong>, Jinghua Hou*, Yuxiang Lu, Zhenya Yang, Xianzhe Fan, Junwei Luo, Junyi Li, Ruihua Han, Zhi Hou, Hengshuang Zhao+</div>
+    <div class='paper-authors'><strong>Zhe Liu*</strong>, Jinghua Hou*, Yuxiang Lu, Zhenya Yang, Xianzhe Fan, Junwei Luo, Junyi Li, Ruihua Han, Zhi Hou, Hengshuang Zhao<sup title="Corresponding author">✉</sup></div>
     <div class='paper-venue'><strong>Neural Information Processing Systems (NeurIPS), 2026</strong>.</div>
     <div class='paper-links'><a href="https://happinesslz.github.io/projects/StreamPI/">[Project]</a><a href="https://arxiv.org/abs/2608.26067">[Paper]</a><a href="https://github.com/hku-sail/StreamPI">[Code]</a></div>
   </div>
@@ -124,7 +124,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2606.24231">FlowR2A: Learning Reward-to-Action Distribution for Multimodal Driving Planning</a></div>
-    <div class='paper-authors'>Xirui Li, <strong>Zhe Liu†</strong>, Xiaoqing Ye+, Wenhua Han, Yifeng Pan, Junyu Han, Hengshuang Zhao+</div>
+    <div class='paper-authors'>Xirui Li, <strong>Zhe Liu†</strong>, Xiaoqing Ye<sup title="Corresponding author">✉</sup>, Wenhua Han, Yifeng Pan, Junyu Han, Hengshuang Zhao<sup title="Corresponding author">✉</sup></div>
     <div class='paper-venue'><strong>Neural Information Processing Systems (NeurIPS), 2026</strong>.</div>
     <div class='paper-links'><a href="https://lixirui142.github.io/flowr2a-ad/">[Project]</a><a href="https://arxiv.org/abs/2606.24231">[Paper]</a><a href="https://github.com/lixirui142/FlowR2A">[Code]</a></div>
   </div>
@@ -232,7 +232,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2512.12751">GenieDrive: Towards Physics-Aware Driving World Model with 4D Occupancy Guided Video Generation</a></div>
-    <div class='paper-authors'>Zhenya Yang, <strong>Zhe Liu†</strong>, Yuxiang Lu, Liping Hou, Chenxuan Miao, Siyi Peng, Bailan Feng, Xiang Bai, Hengshuang Zhao+</div>
+    <div class='paper-authors'>Zhenya Yang, <strong>Zhe Liu†</strong>, Yuxiang Lu, Liping Hou, Chenxuan Miao, Siyi Peng, Bailan Feng, Xiang Bai, Hengshuang Zhao<sup title="Corresponding author">✉</sup></div>
     <div class='paper-venue'><strong>Computer Vision and Pattern Recognition (CVPR), 2026</strong>.</div>
     <div class='paper-links'><a href="https://arxiv.org/abs/2512.12751">[Paper]</a><a href="https://github.com/Huster-YZY/GenieDrive">[Code]</a></div>
   </div>
@@ -244,7 +244,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2512.12799">DrivePI: Spatial-aware 4D MLLM for Unified Autonomous Driving Understanding, Perception, Prediction and Planning</a></div>
-    <div class='paper-authors'><strong>Zhe Liu</strong>, Runhui Huang, Rui Yang, Siming Yan, Zining Wang, Lu Hou, Di Lin, Xiang Bai, Hengshuang Zhao+</div>
+    <div class='paper-authors'><strong>Zhe Liu</strong>, Runhui Huang, Rui Yang, Siming Yan, Zining Wang, Lu Hou, Di Lin, Xiang Bai, Hengshuang Zhao<sup title="Corresponding author">✉</sup></div>
     <div class='paper-venue'><strong>Computer Vision and Pattern Recognition (CVPR), 2026</strong>.</div>
     <div class='paper-links'><a href="https://github.com/happinesslz/DrivePI">[Project]</a><a href="https://arxiv.org/abs/2512.12799">[Paper]</a><a href="https://github.com/happinesslz/DrivePI">[Code]</a></div>
   </div>
@@ -280,7 +280,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2511.01768">UniLION: Towards Unified Autonomous Driving Model with Linear Group RNNs</a></div>
-    <div class='paper-authors'><strong>Zhe Liu</strong>, Jinghua Hou, Xiaoqing Ye, Jingdong Wang, Hengshuang Zhao+, Xiang Bai+</div>
+    <div class='paper-authors'><strong>Zhe Liu</strong>, Jinghua Hou, Xiaoqing Ye, Jingdong Wang, Hengshuang Zhao<sup title="Corresponding author">✉</sup>, Xiang Bai<sup title="Corresponding author">✉</sup></div>
     <div class='paper-venue'>arXiv preprint, 2025.</div>
     <div class='paper-links'><a href="https://github.com/happinesslz/UniLION">[Project]</a><a href="https://arxiv.org/abs/2511.01768">[Paper]</a><a href="https://github.com/happinesslz/UniLION">[Code]</a></div>
   </div>
@@ -448,7 +448,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/1901.02237">3D Object Detection Using Scale Invariant and Feature Reweighting Networks</a></div>
-    <div class='paper-authors'>Xin Zhao, <strong>Zhe Liu+</strong>, Ruolan Hu, Kaiqi Huang</div>
+    <div class='paper-authors'>Xin Zhao, <strong>Zhe Liu<sup title="Corresponding author">✉</sup></strong>, Ruolan Hu, Kaiqi Huang</div>
     <div class='paper-venue'><strong>AAAI Conference on Artificial Intelligence (AAAI), 2019</strong>.</div>
     <div class='paper-links'><a href="https://arxiv.org/abs/1901.02237">[Paper]</a></div>
   </div>
