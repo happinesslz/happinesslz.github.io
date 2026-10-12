@@ -12,7 +12,7 @@ redirect_from:
 
 I am a postdoctoral researcher in the Department of Computer Science at The University of Hong Kong, working with Prof. [Hengshuang Zhao](https://hszhao.github.io/). I received my Ph.D. from the School of Electronic Information and Communications at Huazhong University of Science and Technology, supervised by Prof. [Xiang Bai](https://xbai.vlrlab.net/).
 
-My research focuses on embodied intelligence systems connecting spatial perception, multimodal reasoning, world modeling, and executable actions. I have worked on autonomous driving and 3D perception for over eight years, with recent work spanning Embodied AI, Vision-Language-Action models, 4D MLLMs, and 4D world models. I have published 35+ papers in venues including **TPAMI**, **TIP**, **CVPR**, **ICCV**, **ECCV**, **NeurIPS**, **ICML**, **AAAI**, **IROS**, **TITS**, and **ICRA**. As of September 27, 2026, [Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate) reports 2,545 citations, an h-index of 17, and an i10-index of 22.
+My research focuses on embodied intelligence systems connecting spatial perception, multimodal reasoning, world modeling, and executable actions. I have worked on autonomous driving and 3D perception for over eight years, with recent work spanning Embodied AI, Vision-Language-Action models, 4D MLLMs, and 4D world models. I have published 35+ papers in venues including **TPAMI**, **TIP**, **CVPR**, **ICCV**, **ECCV**, **NeurIPS**, **ICML**, **AAAI**, **IROS**, **TITS**, and **ICRA**. As of October 12, 2026, [Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate) reports 2,586 citations, an h-index of 18, and an i10-index of 22.
 
 <div class="research-focus">
   <div><strong>3D Perception</strong><br>LiDAR, multi-view, multi-modal fusion, detection, tracking, occupancy, prediction, and planning.</div>
@@ -66,7 +66,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
     <div class='paper-title'><a href="https://arxiv.org/abs/2610.12266">DVD: Dynamic Vector Decoding for Efficient MLLM-based Perception</a></div>
     <div class='paper-authors'>Jinghua Hou, <strong>Zhe Liu†</strong>, Hengshuang Zhao<sup title="Corresponding author">✉</sup></div>
     <div class='paper-venue'>arXiv preprint, 2026.</div>
-    <div class='paper-links'><a href="https://almoonysl.github.io/projects/DVD/">[Project]</a><a href="https://arxiv.org/abs/2610.12266">[Paper]</a></div>
+    <div class='paper-links'><a href="https://almoonysl.github.io/projects/DVD/">[Project]</a><a href="https://arxiv.org/abs/2610.12266">[Paper]</a><a href="https://github.com/AlmoonYsl/DVD">[GitHub]</a></div>
   </div>
 </div>
 
