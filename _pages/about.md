@@ -66,7 +66,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
     <div class='paper-title'><a href="https://arxiv.org/abs/2610.12266">DVD: Dynamic Vector Decoding for Efficient MLLM-based Perception</a></div>
     <div class='paper-authors'>Jinghua Hou, <strong>Zhe Liu†</strong>, Hengshuang Zhao<sup title="Corresponding author">✉</sup></div>
     <div class='paper-venue'>arXiv preprint, 2026.</div>
-    <div class='paper-links'><a href="https://almoonysl.github.io/projects/DVD/">[Project]</a><a href="https://arxiv.org/abs/2610.12266">[Paper]</a><a href="https://github.com/AlmoonYsl/DVD">[GitHub]</a></div>
+    <div class='paper-links'><a href="https://almoonysl.github.io/projects/DVD/">[Project]</a><a href="https://arxiv.org/abs/2610.12266">[Paper]</a><a href="https://github.com/AlmoonYsl/DVD">[Code]</a></div>
   </div>
 </div>
 
