@@ -12,7 +12,7 @@ redirect_from:
 
 I am a postdoctoral researcher in the Department of Computer Science at The University of Hong Kong, working with Prof. [Hengshuang Zhao](https://hszhao.github.io/). I received my Ph.D. from the School of Electronic Information and Communications at Huazhong University of Science and Technology, supervised by Prof. [Xiang Bai](https://xbai.vlrlab.net/).
 
-My research focuses on embodied intelligence systems connecting spatial perception, multimodal reasoning, world modeling, and executable actions. I have worked on autonomous driving and 3D perception for over eight years, with recent work spanning Embodied AI, Vision-Language-Action models, 4D MLLMs, and 4D world models. I have published 35+ papers in venues including **TPAMI**, **TIP**, **CVPR**, **ICCV**, **ECCV**, **NeurIPS**, **ICML**, **AAAI**, **IROS**, **TITS**, and **ICRA**. As of October 12, 2026, [Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate) reports 2,598 citations, an h-index of 18, and an i10-index of 22.
+My research focuses on embodied intelligence systems connecting spatial perception, multimodal reasoning, world modeling, and executable actions. I have worked on autonomous driving and 3D perception for over eight years, with recent work spanning Embodied AI, Vision-Language-Action models, 4D MLLMs, and 4D world models. I have published 35+ papers in venues including **TPAMI**, **TIP**, **CVPR**, **ICCV**, **ECCV**, **NeurIPS**, **ICML**, **AAAI**, **IROS**, **TITS**, and **ICRA**. [Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate) reports <span data-scholar-metric="citedby">{{ site.data.scholar_stats.citedby }}</span> citations, an h-index of <span data-scholar-metric="hindex">{{ site.data.scholar_stats.hindex }}</span>, and an i10-index of <span data-scholar-metric="i10index">{{ site.data.scholar_stats.i10index }}</span>.
 
 <div class="research-focus">
   <div><strong>3D Perception</strong><br>LiDAR, multi-view, multi-modal fusion, detection, tracking, occupancy, prediction, and planning.</div>
@@ -32,6 +32,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 # News
 
 - **Oct 2026:** 🚀 [DVD](#dvd) is released, enabling efficient MLLM-based 2D and 3D perception with dynamic vector decoding.
+- **Sep 2026:** 🎉 Invited to serve as an **Area Chair (AC)** for **ICLR 2027**.
 - **Sep 2026:** 🚀 [PanoVLN](#panovln) is released, exploring effective panoramic vision-and-language navigation.
 - **Sep 2026:** 🎉 Six papers are accepted by **NeurIPS 2026**: [StreamPI](#streampi), [Read It Back / SpectraReward](#spectrareward) (**Spotlight ✨**), [EO-WM](#eowm), [FlowR2A](#flowr2a), [FASTER](#faster), and [SRL-MPC](#srlmpc).
 - **Aug 2026:** 🚀 [StreamPI](https://happinesslz.github.io/projects/StreamPI/) and [SRL-MPC](https://hanruihua.github.io/srl_mpc_project/) are released.
@@ -456,7 +457,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 # Professional Service
 
-- **Conference Area Chair:** **ICLR 2026**.
+- **Conference Area Chair:** **ICLR 2027**, **ICLR 2026**.
 - **Conference Reviewer:** **CVPR**, **ICCV**, **ECCV**, **ICLR**, **ICML**, **NeurIPS**, **AAAI**, **IJCAI**, **ICRA**, **ICASSP**, **ACM Multimedia Asia**.
 - **Journal Reviewer:** **TPAMI**, **TIP**, **TCSVT**, **TITS**, **RA-L**, **SCIS**, **TGRS**.
 - **Invited Talks:** Machine Intelligence, Midea Research Institute, 3D CVer, Shuzihuanyu, The Heart of Autonomous Driving, and Huawei Yinwang Intelligent Technology.

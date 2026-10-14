@@ -1,19 +1,5 @@
-<script>
-    $(document).ready(function () {
-        {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
-        {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
-        {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
-            });
-        });
-    })
-</script>
+<script src="{{ '/assets/js/google-scholar-stats.js' | relative_url }}?v={{ site.time | date: '%s' }}"
+        data-scholar-id="{{ site.google_scholar_id | escape }}"
+        data-stats-url="{{ site.google_scholar_stats_url | escape }}"
+        data-baseline-updated="{{ site.data.scholar_stats.updated | escape }}"
+        defer></script>
