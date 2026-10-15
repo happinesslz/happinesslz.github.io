@@ -33,9 +33,9 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 - **Oct 2026:** 🚀 [Atomic-WAM](#atomic-wam) is released, connecting task reasoning to robotic action through execution-grounded atomic-motion descriptions.
 - **Oct 2026:** 🚀 [DVD](#dvd) is released, enabling efficient MLLM-based 2D and 3D perception with dynamic vector decoding.
-- **Sep 2026:** 🎉 Invited to serve as an **Area Chair (AC)** for **ICLR 2027**.
 - **Sep 2026:** 🚀 [PanoVLN](#panovln) is released, exploring effective panoramic vision-and-language navigation.
 - **Sep 2026:** 🎉 Six papers are accepted by **NeurIPS 2026**: [StreamPI](#streampi), [Read It Back / SpectraReward](#spectrareward) (**Spotlight ✨**), [EO-WM](#eowm), [FlowR2A](#flowr2a), [FASTER](#faster), and [SRL-MPC](#srlmpc).
+- **Early Sep 2026:** 🎉 Invited to serve as an **Area Chair (AC)** for **ICLR 2027**.
 - **Aug 2026:** 🚀 [StreamPI](https://happinesslz.github.io/projects/StreamPI/) and [SRL-MPC](https://hanruihua.github.io/srl_mpc_project/) are released.
 - **Jul 2026:** 🚀 [Read It Back / SpectraReward](https://huangrh99.github.io/projects/SpectraReward/) is released.
 - **Jul 2026:** 🚀 ACE-Brain-0.5 is released.
