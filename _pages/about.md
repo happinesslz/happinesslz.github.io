@@ -12,7 +12,7 @@ redirect_from:
 
 I am a postdoctoral researcher in the Department of Computer Science at The University of Hong Kong, working with Prof. [Hengshuang Zhao](https://hszhao.github.io/). I received my Ph.D. from the School of Electronic Information and Communications at Huazhong University of Science and Technology, supervised by Prof. [Xiang Bai](https://xbai.vlrlab.net/).
 
-My research focuses on embodied intelligence systems connecting spatial perception, multimodal reasoning, world modeling, and executable actions. I have worked on autonomous driving and 3D perception for over eight years, with recent work spanning Embodied AI, Vision-Language-Action models, 4D MLLMs, and 4D world models. I have published 40+ papers in venues including **TPAMI**, **TIP**, **CVPR**, **ICCV**, **ECCV**, **NeurIPS**, **ICML**, **AAAI**, **IROS**, **TITS**, and **ICRA**. [Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate) reports 2,601 citations, an h-index of 18, and an i10-index of 22.
+My research focuses on embodied intelligence systems connecting spatial perception, multimodal reasoning, world modeling, and executable actions. I have worked on autonomous driving and 3D perception for over eight years, with recent work spanning Embodied AI, Vision-Language-Action models, 4D MLLMs, and 4D world models. I have published 40+ papers in venues including **TPAMI**, **TIP**, **CVPR**, **ICCV**, **ECCV**, **NeurIPS**, **ICML**, **AAAI**, **IROS**, **TITS**, and **ICRA**. [Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate) reports 2,603 citations, an h-index of 18, and an i10-index of 22.
 
 <div class="research-focus">
   <div><strong>3D Perception</strong><br>LiDAR, multi-view, multi-modal fusion, detection, tracking, occupancy, prediction, and planning.</div>
@@ -31,6 +31,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 # News
 
+- **Oct 2026:** 🚀 [Atomic-WAM](#atomic-wam) is released, connecting task reasoning to robotic action through execution-grounded atomic-motion descriptions.
 - **Oct 2026:** 🚀 [DVD](#dvd) is released, enabling efficient MLLM-based 2D and 3D perception with dynamic vector decoding.
 - **Sep 2026:** 🎉 Invited to serve as an **Area Chair (AC)** for **ICLR 2027**.
 - **Sep 2026:** 🚀 [PanoVLN](#panovln) is released, exploring effective panoramic vision-and-language navigation.
@@ -57,7 +58,19 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 [Full publication list on Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate).
 
-*: Equal contribution, ✉: Corresponding Author, †: Project Leader.
+*: Equal contribution, ✉: Corresponding Author, †: Project Leader, ‡: Equal advising.
+
+<div class='paper-box' id='atomic-wam'>
+  <div class='paper-box-image'>
+    <div class="paper-image-frame"><div class="badge">arXiv 2026</div><img src='images/atomic-wam.png' alt="Atomic-WAM framework connecting atomic-motion reasoning to joint video and robotic action prediction" loading="lazy"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'><a href="https://arxiv.org/abs/2610.20157">Atomic-WAM: Execution-Grounded Atomic-Motion Reasoning for World Action Models</a></div>
+    <div class='paper-authors'>Shijun Shi*, <strong>Zhe Liu*</strong>, Zhi Hou, Yinan Chen, Tao Zhang, Kai Hu<sup title="Equal advising">‡</sup>, Yong Liu, Jiangning Zhang<sup title="Equal advising">‡</sup></div>
+    <div class='paper-venue'>arXiv preprint, 2026.</div>
+    <div class='paper-links'><a href="https://ssj9596.github.io/Atomic-WAM-project/">[Project]</a><a href="https://arxiv.org/abs/2610.20157">[Paper]</a><a href="https://github.com/ssj9596/Atomic-WAM">[Code]</a></div>
+  </div>
+</div>
 
 <div class='paper-box' id='dvd'>
   <div class='paper-box-image'>
