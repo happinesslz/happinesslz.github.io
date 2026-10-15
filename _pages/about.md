@@ -62,7 +62,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 <div class='paper-box' id='atomic-wam'>
   <div class='paper-box-image'>
-    <div class="paper-image-frame"><div class="badge">arXiv 2026</div><img src='images/atomic-wam.png' alt="Atomic-WAM framework connecting atomic-motion reasoning to joint video and robotic action prediction" loading="lazy"></div>
+    <div class="paper-image-frame"><div class="badge">arXiv 2026</div><img src='images/atomic-wam.png' alt="Atomic-WAM framework connecting atomic-motion reasoning to joint video and robotic action prediction" style="object-fit: contain;" loading="lazy"></div>
   </div>
   <div class='paper-box-text'>
     <div class='paper-title'><a href="https://arxiv.org/abs/2610.20157">Atomic-WAM: Execution-Grounded Atomic-Motion Reasoning for World Action Models</a></div>
