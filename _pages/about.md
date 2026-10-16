@@ -69,7 +69,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
     <div class='paper-title'><a href="https://arxiv.org/abs/2610.21985">VeriVLA: Adaptive Test-Time Verification for Flow-Based VLAs with Latent World Models</a></div>
     <div class='paper-authors'>Xueli Sun, Yuxiang Lu, Yantong Liu, Xianzhe Fan, Xi Chen, <strong>Zhe Liu†</strong>, Hengshuang Zhao<sup title="Corresponding author">✉</sup></div>
     <div class='paper-venue'>arXiv preprint, 2026.</div>
-    <div class='paper-links'><a href="https://shirley430316.github.io/projects/verivla/">[Project]</a><a href="https://arxiv.org/abs/2610.21985">[Paper]</a></div>
+    <div class='paper-links'><a href="https://shirley430316.github.io/projects/verivla/">[Project]</a><a href="https://arxiv.org/abs/2610.21985">[Paper]</a><a href="https://github.com/shirley430316/VeriVLA">[Code]</a></div>
   </div>
 </div>
 
