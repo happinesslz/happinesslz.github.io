@@ -31,6 +31,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 # News
 
+- **Oct 2026:** 🚀 [VeriVLA](#verivla) is released, using latent world models for adaptive test-time verification of flow-based VLA actions.
 - **Oct 2026:** 🚀 [Atomic-WAM](#atomic-wam) is released, connecting task reasoning to robotic action through execution-grounded atomic-motion descriptions.
 - **Oct 2026:** 🚀 [DVD](#dvd) is released, enabling efficient MLLM-based 2D and 3D perception with dynamic vector decoding.
 - **Sep 2026:** 🚀 [PanoVLN](#panovln) is released, exploring effective panoramic vision-and-language navigation.
@@ -59,6 +60,18 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 [Full publication list on Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate).
 
 *: Equal contribution, ✉: Corresponding Author, †: Project Leader, ‡: Equal advising.
+
+<div class='paper-box' id='verivla'>
+  <div class='paper-box-image'>
+    <div class="paper-image-frame"><div class="badge">arXiv 2026</div><img src='images/verivla.webp' alt="VeriVLA identifies high-variance action states and adaptively triggers additional sampling and verification" style="object-fit: contain;" loading="lazy"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'><a href="https://arxiv.org/abs/2610.21985">VeriVLA: Adaptive Test-Time Verification for Flow-Based VLAs with Latent World Models</a></div>
+    <div class='paper-authors'>Xueli Sun, Yuxiang Lu, Yantong Liu, Xianzhe Fan, Xi Chen, <strong>Zhe Liu†</strong>, Hengshuang Zhao<sup title="Corresponding author">✉</sup></div>
+    <div class='paper-venue'>arXiv preprint, 2026.</div>
+    <div class='paper-links'><a href="https://shirley430316.github.io/projects/verivla/">[Project]</a><a href="https://arxiv.org/abs/2610.21985">[Paper]</a></div>
+  </div>
+</div>
 
 <div class='paper-box' id='atomic-wam'>
   <div class='paper-box-image'>
