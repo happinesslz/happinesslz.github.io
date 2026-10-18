@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhe Liu | 刘哲"
-description              : "Postdoctoral Researcher in Embodied AI and 3D Perception at The University of Hong Kong"
+description              : "Postdoctoral Researcher in Physical AI and Embodied Foundation Models at The University of Hong Kong"
 repository               : "happinesslz/happinesslz.github.io"
 
 # google analytics
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhe Liu | 刘哲"
   avatar           : "images/zheliu.jpg"
-  bio              : "Postdoctoral Researcher in Embodied AI and 3D Perception"
+  bio              : "Postdoctoral Researcher in Physical AI and Embodied Foundation Models"
   location         : "The University of Hong Kong"
   employer         :
   pubmed           : 

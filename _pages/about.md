@@ -12,14 +12,16 @@ redirect_from:
 
 I am a postdoctoral researcher in the Department of Computer Science at The University of Hong Kong, working with Prof. [Hengshuang Zhao](https://hszhao.github.io/). I received my Ph.D. from the School of Electronic Information and Communications at Huazhong University of Science and Technology, supervised by Prof. [Xiang Bai](https://xbai.vlrlab.net/).
 
-My research focuses on embodied intelligence systems connecting spatial perception, multimodal reasoning, world modeling, and executable actions. I have worked on autonomous driving and 3D perception for over eight years, with recent work spanning Embodied AI, Vision-Language-Action models, 4D MLLMs, and 4D world models. I have published 40+ papers in venues including **TPAMI**, **TIP**, **CVPR**, **ICCV**, **ECCV**, **NeurIPS**, **ICML**, **AAAI**, **IROS**, **TITS**, and **ICRA**. [Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate) reports 2,603 citations, an h-index of 18, and an i10-index of 22.
+I have **eight years of experience in autonomous driving** and **two years in embodied AI**. My current research focuses on **Physical AI** and **embodied foundation models**, spanning vision-language-action (VLA) models, world models, embodied reasoning, and efficient inference for real-world deployment.
 
 <div class="research-focus">
-  <div><strong>3D Perception</strong><br>LiDAR, multi-view, multi-modal fusion, detection, tracking, occupancy, prediction, and planning.</div>
-  <div><strong>Embodied AI</strong><br>Embodied data engines, spatial intelligence, robotic learning, and cross-embodiment generalization.</div>
-  <div><strong>VLA / World-Action Models</strong><br>Vision-language-action models, world-action models, VLN, streaming policies, and efficient real-time inference.</div>
-  <div><strong>4D World Models</strong><br>4D occupancy, physics-aware simulation, virtual evaluation, policy learning, and sim-to-real transfer.</div>
+  <div><strong>Physical AI / Embodied Foundation Models</strong><br>Multimodal foundation models, robotic learning, and cross-embodiment generalization.</div>
+  <div><strong>VLA / Embodied Reasoning</strong><br>Vision-language-action models, reasoning-to-action, streaming policies, and task execution.</div>
+  <div><strong>World / World-Action Models</strong><br>Action-conditioned prediction, physics-aware modeling, simulation, and policy learning.</div>
+  <div><strong>Efficient Inference</strong><br>Real-time execution, adaptive test-time computation, and action verification.</div>
 </div>
+
+I am open to private conversations about research and technical leadership opportunities in embodied AI and multimodal foundation models, particularly those involving research direction, core team building, and real-world deployment. Please feel free to reach out at [happinesslzcq@gmail.com](mailto:happinesslzcq@gmail.com).
 
 # Research Vision
 
@@ -56,6 +58,8 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 - **Nov 2019:** 🎉 TANet is accepted by **AAAI 2020** as an oral presentation.
 
 # Publications
+
+I have published 40+ papers in venues including **TPAMI**, **TIP**, **CVPR**, **ICCV**, **ECCV**, **NeurIPS**, **ICML**, **AAAI**, **IROS**, **TITS**, and **ICRA**. [Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate) reports 2,603 citations, an h-index of 18, and an i10-index of 22.
 
 [Full publication list on Google Scholar](https://scholar.google.com/citations?hl=en&user=yprv7EsAAAAJ&view_op=list_works&sortby=pubdate).
 
