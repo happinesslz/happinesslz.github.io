@@ -37,6 +37,7 @@ My long-term goal is to build general-purpose embodied intelligence systems that
 
 <div class="news-scroll" role="region" aria-labelledby="news" tabindex="0" markdown="1">
 
+- **Oct 2026:** 🚀 [TILDE](#tilde) is released, transferring embodied foundation model capabilities to robot policies through teacher-in-the-loop distillation and autonomous recovery-data collection.
 - **Oct 2026:** 🚀 [VeriVLA](#verivla) is released, using latent world models for adaptive test-time verification of flow-based VLA actions.
 - **Oct 2026:** 🚀 [Atomic-WAM](#atomic-wam) is released, connecting task reasoning to robotic action through execution-grounded atomic-motion descriptions.
 - **Oct 2026:** 🚀 [DVD](#dvd) is released, enabling efficient MLLM-based 2D and 3D perception with dynamic vector decoding.
@@ -98,9 +99,22 @@ Selected publications and recent arXiv preprints are listed below. [Full publica
 
   <section class="publication-group" data-topic="foundation" aria-labelledby="pub-topic-foundation">
     <header class="publication-group-heading">
-      <h2 id="pub-topic-foundation">Embodied Foundation Models &amp; VLA <span class="publication-group-count">6 papers</span></h2>
+      <h2 id="pub-topic-foundation">Embodied Foundation Models &amp; VLA <span class="publication-group-count">7 papers</span></h2>
       <p>General-purpose embodied intelligence through VLA policies, cross-embodiment learning, and multimodal foundation model training and alignment.</p>
     </header>
+
+<div class="paper-box" id="tilde" data-topics="foundation" data-date-order="-1">
+  <div class='paper-box-image'>
+    <div class="paper-image-frame"><div class="badge">arXiv 2026</div><img src='images/tilde.png' alt="TILDE compares policy distillation strategies and combines demonstrations, student rollouts, and teacher recovery trajectories" loading="lazy"></div>
+  </div>
+  <div class='paper-box-text'>
+    <div class='paper-title'><a href="https://arxiv.org/abs/2610.25376">TILDE: Teacher-in-the-Loop Distillation from Embodied Foundation Models</a></div>
+    <div class='paper-authors'>Yuxiang Lu*, Yantong Liu*, Jinghua Hou, Xueli Sun, Ruihua Han, <strong>Zhe Liu</strong>, Hengshuang Zhao</div>
+    <div class='paper-venue'>arXiv preprint, 2026.</div>
+    <div class='paper-links'><a href="https://hku-sail.github.io/TILDE/">[Project]</a><a href="https://arxiv.org/abs/2610.25376">[Paper]</a><a href="https://github.com/hku-sail/TILDE">[Code]</a></div>
+    <div class="paper-topics" aria-label="Research areas"><span>Embodied Foundation Models &amp; VLA</span></div>
+  </div>
+</div>
 
 <div class="paper-box" id="streampi" data-topics="foundation" data-date-order="4">
   <div class='paper-box-image'>
