@@ -74,6 +74,10 @@ Selected publications and recent arXiv preprints are listed below. [Full publica
 
 <div class="publication-browser" id="publication-browser">
   <div class="publication-controls" hidden>
+    <div class="publication-modes" role="group" aria-label="Publication view">
+      <button type="button" data-publication-mode="topic" aria-pressed="true">By research area</button>
+      <button type="button" data-publication-mode="date" aria-pressed="false">By date</button>
+    </div>
     <div class="publication-topics" role="group" aria-label="Filter publications by research area">
       <button type="button" data-publication-topic="all" aria-pressed="true">All areas</button>
 

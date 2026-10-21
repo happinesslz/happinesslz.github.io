@@ -131,10 +131,15 @@
   background: #f8faff;
 }
 
+.publication-modes,
 .publication-topics {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+.publication-modes {
+  margin-bottom: 12px;
 }
 
 .publication-controls button {

@@ -6,22 +6,26 @@
 
   var groups = Array.from(root.querySelectorAll(".publication-group"));
   var cards = Array.from(root.querySelectorAll(".paper-box")).map(function (card) {
+    var year = card.querySelector(".paper-venue").textContent.match(/\b(?:19|20)\d{2}\b/);
     return {
       element: card,
       home: card.closest(".publication-group"),
       topics: card.dataset.topics.split(" "),
+      year: year ? Number(year[0]) : 0,
       order: Number(card.dataset.dateOrder)
     };
-  }).sort(function (a, b) { return a.order - b.order; });
+  }).sort(function (a, b) { return b.year - a.year || a.order - b.order; });
   var flat = root.querySelector(".publication-flat");
   var flatPapers = root.querySelector(".publication-flat-papers");
+  var modeButtons = Array.from(root.querySelectorAll("[data-publication-mode]"));
   var topicButtons = Array.from(root.querySelectorAll("[data-publication-topic]"));
+  var mode = "topic";
   var topic = "all";
 
   function render() {
     // Keep one DOM node per paper so existing News links and paper IDs stay valid.
     cards.forEach(function (card) { card.home.appendChild(card.element); });
-    var grouped = topic === "all";
+    var grouped = mode === "topic" && topic === "all";
     groups.forEach(function (group) { group.hidden = !grouped; });
     flat.hidden = grouped;
 
@@ -34,16 +38,26 @@
       var group = groups.find(function (item) { return item.dataset.topic === topic; });
       root.querySelector(".publication-flat-title").textContent = group
         ? group.querySelector("h2").firstChild.textContent.trim()
-        : "All Publications";
-      root.querySelector(".publication-flat-description").textContent = group
-        ? group.querySelector(".publication-group-heading p").textContent
-        : "Latest publications first.";
+        : "Publications by Date";
+      root.querySelector(".publication-flat-description").textContent = mode === "date"
+        ? "Latest publications first."
+        : group.querySelector(".publication-group-heading p").textContent;
     }
 
+    modeButtons.forEach(function (button) {
+      button.setAttribute("aria-pressed", String(button.dataset.publicationMode === mode));
+    });
     topicButtons.forEach(function (button) {
       button.setAttribute("aria-pressed", String(button.dataset.publicationTopic === topic));
     });
   }
+
+  modeButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      mode = button.dataset.publicationMode;
+      render();
+    });
+  });
 
   topicButtons.forEach(function (button) {
     button.addEventListener("click", function () {
